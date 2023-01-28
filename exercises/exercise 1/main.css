@@ -1,0 +1,137 @@
+html {
+  background-color: pink;
+}
+
+@keyframes backgroundColorPalette {
+  0% {
+    background: #ffc4e5;
+  }
+  25% {
+    background: #a9d4fc;
+  }
+  50% {
+    background: #d6a1ff;
+  }
+  75% {
+    background: #9e2105;
+  }
+  100% {
+    background: black;
+  }
+}
+
+html {
+  animation-name: backgroundColorPalette;
+  animation-duration: 18s;
+  animation-iteration-count: infinite;
+}
+
+.title {
+  text-align: center;
+  color: white;
+  margin-top: 350px;
+  transform: rotate(2deg);
+}
+
+.title:hover {
+  color: red;
+}
+
+.title {
+  display: block;
+  position: relative;
+  color: white;
+}
+
+.title:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  background-color: red;
+  transform-origin: bottom right;
+  transition: transform 0.5s ease-out;
+}
+
+.title:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.text1 {
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 400px;
+  color: white;
+}
+
+.mac {
+  margin-top: 100px;
+  margin-left: 100px;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.mac:hover {
+  transform: rotate(5deg);
+}
+
+.text2 {
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 60px;
+  color: white;
+}
+
+.text3 {
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 400px;
+  color: white;
+}
+
+a:visited {
+  color: #0f0d0c;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.text4 {
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 400px;
+  color: white;
+}
+
+.jen {
+  margin-top: 400px;
+  position: relative;
+  text-align: center;
+}
+
+.jen:hover {
+
+}
+
+.text5 {
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 400px;
+  color: white;
+}
+
+.text6 {
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 400px;
+  color: white;
+  margin-bottom: 300px;
+}
