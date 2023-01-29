@@ -6,23 +6,17 @@ html {
   0% {
     background: #ffc4e5;
   }
-  25% {
+  50% {
     background: #a9d4fc;
   }
-  50% {
-    background: #d6a1ff;
-  }
-  75% {
-    background: #9e2105;
-  }
   100% {
-    background: black;
+    background: #d6a1ff;
   }
 }
 
 html {
   animation-name: backgroundColorPalette;
-  animation-duration: 18s;
+  animation-duration: 8s;
   animation-iteration-count: infinite;
 }
 
@@ -61,77 +55,29 @@ html {
   transform-origin: bottom left;
 }
 
-.text1 {
-  font-family: 'EB Garamond', serif;
+h2 {
   text-align: center;
-  font-size: 25px;
-  margin-top: 400px;
-  color: white;
+  display: block;
+  position: relative;
+  color: red;
+  margin-top: 0px;
+  text-decoration: underline;
+  font-size: 20px;
+  transform: rotate(2deg);
 }
 
-.mac {
-  margin-top: 100px;
-  margin-left: 100px;
-  transition: all 0.3s ease-in-out 0s;
+h2:hover {
+  color: red;
 }
 
-.mac:hover {
-  transform: rotate(5deg);
-}
-
-.text2 {
-  font-family: 'EB Garamond', serif;
-  text-align: center;
-  font-size: 25px;
-  margin-top: 60px;
-  color: white;
-}
-
-.text3 {
-  font-family: 'EB Garamond', serif;
-  text-align: center;
-  font-size: 25px;
-  margin-top: 400px;
-  color: white;
-}
-
-a:visited {
-  color: #0f0d0c;
+a:link {
+  color: red;
   background-color: transparent;
   text-decoration: underline;
 }
 
-.text4 {
-  font-family: 'EB Garamond', serif;
-  text-align: center;
-  font-size: 25px;
-  margin-top: 400px;
-  color: white;
-}
-
-.jen {
-  margin-top: 400px;
-  position: relative;
-  text-align: center;
-}
-
-.jen:hover {
-
-}
-
-.text5 {
-  font-family: 'EB Garamond', serif;
-  text-align: center;
-  font-size: 25px;
-  margin-top: 400px;
-  color: white;
-}
-
-.text6 {
-  font-family: 'EB Garamond', serif;
-  text-align: center;
-  font-size: 25px;
-  margin-top: 400px;
-  color: white;
-  margin-bottom: 300px;
+a:visited {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
 }

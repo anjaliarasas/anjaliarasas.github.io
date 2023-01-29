@@ -1,0 +1,88 @@
+
+html {
+  background-color: pink;
+}
+
+.text1 {
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 200px;
+  color: black;
+}
+
+.text2 {
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 40px;
+  color: black;
+}
+
+h2 {
+  text-align: center;
+  display: block;
+  position: relative;
+  color: red;
+  margin-top: 20px;
+  text-decoration: underline;
+  font-size: 20px;
+  transform: rotate(2deg);
+}
+
+a:link {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.mac {
+  margin-top: 100px;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.mac:hover {
+  transform: rotate(4deg);
+}
+
+.mac2 {
+  margin-top: 100px;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.mac2:hover {
+  transform: rotate(-4deg);
+}
+
+.mac3 {
+  margin-top: 100px;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.mac3:hover {
+  transform: rotate(7deg);
+}
+
+.mac4 {
+  margin-top: 100px;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.mac4:hover {
+  transform: rotate(-4deg);
+}
+
+.allmac {
+  display: flex;
+  justify-content: space-AROUND;
+  flex-direction: row;
+  padding:10px;
+  background-color:#NONE;
+  height: auto;
+}

@@ -1,0 +1,66 @@
+html {
+  background-color: #E26F6F;
+}
+
+.text3 {
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 100px;
+  color: white;
+}
+
+.text3:hover {
+  color: black;
+}
+
+.text4 {
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 50px;
+  color: white;
+}
+
+.jen {
+  margin-top: 50px;
+  position: relative;
+  text-align: center;
+}
+
+.jen:hover {
+  transform: rotate(20);
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:link:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+h2 {
+  text-align: center;
+  display: block;
+  position: relative;
+  color: red;
+  margin-top: 0px;
+  text-decoration: underline;
+  font-size: 20px;
+  transform: rotate(2deg);
+}
+
+h2:hover {
+  color: red;
+}
