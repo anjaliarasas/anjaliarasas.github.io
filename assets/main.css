@@ -1,0 +1,82 @@
+html {
+ background-image: url("hpbg.png");
+ background-size: contain;
+ width: 1000px
+ height: 720px
+ background-repeat: no-repeat;
+}
+
+text {
+  font-family: 'Oranienbaum', serif;
+  font-size: 30px;
+  margin-bottom: : 0px;
+  display: block;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding:0px;
+  background-color:#NONE;
+  height: auto;
+}
+
+.bow {
+  text-align: center;
+}
+
+.core2 {
+  text-align: left;
+  margin-bottom: : 0px;
+}
+
+.spring {
+  text-align: right;
+  margin-bottom: : 0px;
+}
+
+h1 {
+text-align: center;
+font-family: 'Oranienbaum', serif;
+font-size: 60px;
+color: #252525;
+margin-top: : 0px;
+text-decoration: underline;
+}
+
+
+h2{
+  font-family: 'Oranienbaum', serif;
+  margin-top: 10px;
+  margin bottom: 10px;
+  background-color: #252525;
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
+  color: white;
+}
+
+h2:hover {
+  background-color: #252525;
+background: radial-gradient(circle, rgba(228,147,169,1) 0%, rgba(237,171,192,1) 31%, rgba(169,195,244,1) 100%);
+  transition: background-color 0.25s;
+}
+
+h3 {
+  font-family: 'Oranienbaum', serif;
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+h4 {
+  font-family: 'Oranienbaum', serif;
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 40px;
+  text-align: center;
+}
