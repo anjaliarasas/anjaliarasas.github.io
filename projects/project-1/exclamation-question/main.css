@@ -1,0 +1,92 @@
+html {
+  background-color: #365939
+}
+
+.this {
+  font-family: 'Anton';
+  font-size: 96px;
+  text-align: right;
+  color: #F0E9DF;
+  margin-top: -70px;
+  margin-bottom: 0px;
+  margin-right: 40px;
+  position: absolute;
+  top: -40px;
+  right: 16px;
+}
+
+.website {
+  font-family: 'Anton';
+  font-size: 100px;
+  text-align: right;
+  color: #DB9EC8;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 40px;
+  position: absolute;
+  top: 60px;
+  right: 16px;
+}
+
+.website:hover {
+  text-decoration: underline;
+  text-decoration-color: #DB9EC8;
+}
+
+h2 {
+  font-family: 'Anton';
+  font-size: 60px;
+  text-align: left;
+  color: #F0E9DF;
+  margin-left: 20px;
+  margin-top: 700px;
+}
+
+h2:hover {
+  text-decoration: underline;
+  text-decoration-color: #DB9EC8;
+  color: #DB9EC8;
+}
+
+h3 {
+  font-family: 'Teko', sans-serif;
+  font-size: 24px;
+  text-align: left;
+  color: #F0E9DF;
+  margin-right: 750px;
+  margin-left: 20px;
+  margin-top: -40px;
+}
+
+.rectangle {
+  width: 4px;
+  height: 426px;
+  background: #D9D9D9;
+  position: absolute;
+  margin-left: 1000px;
+  margin-bottom: -500px;
+}
+
+.rectangletop {
+  width: 35px;
+  height: 4px;
+  background: #D9D9D9;
+  position: absolute;
+  margin-left: 965px;
+  margin-bottom: -500px;
+}
+
+.rectanglebottom {
+  width: 35px;
+  height: 4px;
+  background: #D9D9D9;
+  position: absolute;
+  margin-left: 965px;
+  margin-bottom: -926px;
+}
+
+.question {
+}
+
+.exclamation {
+}
