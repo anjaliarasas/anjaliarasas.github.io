@@ -1,49 +1,61 @@
 html {
- background-image: url("bg.png");
- background-size: contain;
- width: 1440px
- height: 1440px
- background-repeat: repeat;
+  background-image: url("house.jpg");
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: url("sparkle.png"), auto;
+}
+
+body {
 }
 
 h1 {
   font-family: 'Great Vibes', cursive;
-  font-size: 270px;
-  color: #F3F3F3;
+  font-size: 250px;
+  color: #E9E4CF;
   text-align: left;
   margin-top: 0px;
   margin-bottom: 0px;
   position: absolute;
-  top: 8px;
-  left: 16px;
+  top: 40px;
+  left: 25px;
 }
 
 h1:hover {
-  color: #252525;
+  color: #F9E78A;
+  text-shadow: 0 0 20px #F9E78A;
 }
 
 h2{
   font-family: 'Great Vibes', cursive;
-  font-size: 270px;
-  color: #F3F3F3;
+  font-size: 230px;
+  color: #E9E4CF;
   text-align: right;
-  margin-top: 600px;
+  margin-top: 300px;
   margin-bottom: 0px;
   position: absolute;
-  bottom: -230px;
+  bottom: -40px;
   right: 16px;
 }
 
 h2:hover {
-  color: #252525;
+  color: #F9E78A;
+  text-shadow: 0 0 20px #F9E78A;
+}
+
+a {
+  cursor: url("knock.png"), auto;
 }
 
 
 .house {
   text-align: center;
-  margin-top: 200px;
+  margin-top: 40px;
   margin-bottom: 0px;
 }
 
 .house:hover {
 }
+
+ /*cursor: url("knock.png"), auto;
