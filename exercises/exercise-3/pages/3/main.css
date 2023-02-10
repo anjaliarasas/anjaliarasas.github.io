@@ -1,0 +1,39 @@
+html {
+  font-family: 'Oranienbaum', serif;
+}
+
+li {
+  margin-left: 20px;
+  font-size: 30px;
+  text-decoration: underline;
+  text-align: right;
+}
+
+i {
+  margin-left: 20px;
+  font-size: 20px;
+  text-align: right;
+}
+h2 {
+  font-size: 18px;
+  font-weight: normal;
+  font-size: 30px;
+  text-decoration: underline;
+  text-align: right;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: normal;
+  font-size: 30px;
+  text-decoration: underline;
+  text-align: right;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: normal;
+  font-size: 30px;
+  text-decoration: underline;
+  text-align: right;
+}

@@ -3,23 +3,24 @@ html {
 }
 
 li {
-  margin-left: 20px;
+  margin-left: 16px;
+  font-weight: normal;
 }
 
 i {
   margin-left: 20px;
 }
 h2 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: normal;
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: normal;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: normal;
 }

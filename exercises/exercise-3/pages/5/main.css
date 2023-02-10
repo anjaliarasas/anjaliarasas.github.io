@@ -4,6 +4,7 @@ html {
 
 li {
   margin-left: 20px;
+  font-weight: bold;
 }
 
 i {
@@ -11,15 +12,15 @@ i {
 }
 h2 {
   font-size: 18px;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 h3 {
   font-size: 18px;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 h4 {
   font-size: 18px;
-  font-weight: normal;
+  font-weight: bold;
 }

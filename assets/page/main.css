@@ -18,3 +18,10 @@ h2 {
 .book:hover {
   transform: rotate(1deg);
 }
+
+a {
+  color: #252525
+}
+a:visited {
+  color: #252525
+}

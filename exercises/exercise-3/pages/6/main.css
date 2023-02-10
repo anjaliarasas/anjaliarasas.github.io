@@ -1,0 +1,40 @@
+html {
+  font-family: 'Oranienbaum', serif;
+}
+
+li {
+  margin-left: 20px;
+  font-size: 20px;
+  text-decoration: underline;
+  font-weight: bold;
+  text-align: center;
+}
+
+i {
+  margin-left: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+h2 {
+  margin-left: 0px;
+  font-size: 20px;
+  text-decoration: underline;
+  font-weight: bold;
+  text-align: center;
+}
+
+h3 {
+  margin-left: 0px;
+  font-size: 20px;
+  text-decoration: underline;
+  font-weight: bold;
+  text-align: center;
+}
+
+h4 {
+  margin-left: 0px;
+  font-size: 20px;
+  text-decoration: underline;
+  font-weight: bold;
+  text-align: center;
+}
