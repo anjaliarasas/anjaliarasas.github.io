@@ -39,7 +39,7 @@ h2 {
   text-align: left;
   color: #F0E9DF;
   margin-left: 20px;
-  margin-top: 700px;
+  margin-top: 600px;
 }
 
 h2:hover {
@@ -49,22 +49,22 @@ h2:hover {
 }
 
 h3 {
-  font-family: 'Teko', sans-serif;
-  font-size: 24px;
+  font-family: 'DM Serif Text', sans-serif;
+  font-size: 18px;
   text-align: left;
   color: #F0E9DF;
   margin-right: 750px;
   margin-left: 20px;
-  margin-top: -40px;
+  margin-top: -50px;
 }
 
 .rectangle {
   width: 4px;
-  height: 426px;
+  height: 620px;
   background: #D9D9D9;
   position: absolute;
   margin-left: 1000px;
-  margin-bottom: -500px;
+  margin-top: -700px;
 }
 
 .rectangletop {
@@ -73,7 +73,7 @@ h3 {
   background: #D9D9D9;
   position: absolute;
   margin-left: 965px;
-  margin-bottom: -500px;
+  margin-top: -700px;
 }
 
 .rectanglebottom {
@@ -82,11 +82,23 @@ h3 {
   background: #D9D9D9;
   position: absolute;
   margin-left: 965px;
-  margin-bottom: -926px;
+  margin-top: -84px;
 }
 
-.question {
+h3, .rectangle, .rectangletop, .rectanglebottom {
 }
 
-.exclamation {
+h4 {
+  font-family: 'Anton';
+  font-size: 40px;
+  text-align: right;
+  color: #DB9EC8;
+  margin-left: 0px;
+  margin-right: 70px;
+  margin-top: -200px;
+}
+
+h4:hover {
+  text-decoration: underline;
+  color: #DB9EC8;
 }

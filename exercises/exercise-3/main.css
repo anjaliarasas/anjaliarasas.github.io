@@ -1,10 +1,17 @@
 h2 {
   font-size: 24px;
   text-align: center;
-  margin-top: 80px;
-  font-family: 'Libre Baskerville', serif;
+  margin-top: 70px;
+  font-family: 'Oranienbaum', serif;
 }
 
+h1 {
+  font-size: 28px;
+  text-align: center;
+  margin-top: 60px;
+  font-family: 'Oranienbaum', serif;
+  text-decoration: underline;
+}
 a {
   color: black;
   text-decoration: none;

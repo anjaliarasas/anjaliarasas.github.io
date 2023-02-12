@@ -4,22 +4,27 @@ html {
 
 li {
   margin-left: 20px;
+  text-decoration: underline;
 }
 
 i {
-  margin-left: 20px;
+  text-align: right;
+  margin-left: 300px;
 }
 h2 {
   font-size: 18px;
   font-weight: normal;
+  text-decoration: underline;
 }
 
 h3 {
   font-size: 18px;
   font-weight: normal;
+  text-decoration: underline;
 }
 
 h4 {
   font-size: 18px;
   font-weight: normal;
+  text-decoration: underline;
 }
