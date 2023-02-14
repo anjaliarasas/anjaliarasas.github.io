@@ -1,0 +1,42 @@
+
+h1 {
+  font-family: 'Anton', sans-serif;
+  color: #F0E9DF;
+  text-decoration: underline;
+  position: absolute;
+}
+
+.leftbox {
+  width: 685px;
+  height: 825px;
+  background: #F0E9DF;
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.rightbox {
+  width: 685px;
+  height: 825px;
+  background: #F0E9DF;
+  position: absolute;
+  margin-left: 720px;
+  margin-top: 10px;
+}
+
+.leftbox:hover {
+  background: #DB9EC8;
+}
+
+.rightbox:hover {
+  background: #DB9EC8;
+}
+
+.leftbox, .rightbox {
+  display: inline-block;
+}
+
+
+.touse {
+
+}
