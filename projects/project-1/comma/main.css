@@ -1,1 +1,30 @@
+html {
+  background-color: #F0E9DF
+}
 
+header {
+  font-family: 'Anton', sans-serif;
+  font-size: 100px;
+  text-align: left;
+  margin-left: 90px;
+  margin-bottom: 40px;
+  color: #365939;
+}
+
+h1 {
+  font-family: 'DM Serif Text', serif;
+  font-size: 16px;
+  margin-left: 300px;
+  margin-right: 350px;
+  color: #365939;
+  text-align: justify;
+}
+
+h2 {
+  font-family: 'Anton', sans-serif;
+  font-size: 50px;
+  text-align: right;
+  margin-top: 120px;
+  margin-right: 70px;
+  color: #365939;
+}

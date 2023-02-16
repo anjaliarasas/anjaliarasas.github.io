@@ -1,0 +1,67 @@
+html {
+  background-color: #FDDAD2;
+}
+
+header {
+  font-family: 'EB Garamond', serif;
+  font-size: 60px;
+  color: #252525;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 200px;
+  margin-bottom: 300px;
+}
+
+.ohno {
+  text-shadow: 1px 1px 2px #978FCB, 0 0 1em #91C5EC, 0 0 0.2em #91C5EC;
+  margin-bottom: -20px;
+}
+
+li  {
+  text-shadow: 1px 1px 2px #978FCB, 0 0 1em #91C5EC, 0 0 0.2em #91C5EC;
+}
+
+h2 {
+  font-family: 'EB Garamond', serif;
+  color: #252525;
+  text-align: center;
+  margin-bottom: 300px;
+}
+
+ol, ul {
+  font-family: 'EB Garamond', serif;
+  font-size: 22px;
+}
+
+.full1, .full2, .full3 {
+  color: #252525;
+  display: inline-block;
+  margin-left: 150px;
+  margin-bottom: 0px;
+}
+
+.full1, .full3 {
+  transform: rotate(5deg)
+}
+
+.full2 {
+  transform: rotate(-5deg)
+}
+
+.full4  {
+  margin-left: 340px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  transform: rotate(-5deg)
+}
+
+.full5 {
+  margin-left: 740px;
+  margin-top: -200px;
+  transform: rotate(5deg)
+}
+
+mark {
+  background-color: #978FCB;
+  color: #252525;
+}

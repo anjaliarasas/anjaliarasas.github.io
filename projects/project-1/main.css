@@ -6,7 +6,7 @@ header {
   font-family: 'DM Serif Display', serif;
   text-decoration: underline;
   text-align: center;
-  font-size: 60px;
+  font-size: 80px;
   color: #365939;
   margin-bottom: 0px;
   margin-top: 15px;
@@ -202,12 +202,12 @@ h5, h6 {
   height: 1800px;
   background: #365939;
   position: absolute;
-  margin-right: 300px;
+  margin-left: 1201px;
   margin-top: -1575px;
 }
 
 .rectanglebottom {
-  width: 1390px;
+  width: 1388px;
   height: 4px;
   background: #365939;
   position: absolute;
