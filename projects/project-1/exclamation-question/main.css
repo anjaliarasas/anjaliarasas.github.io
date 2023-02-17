@@ -63,10 +63,11 @@ h3 {
   font-weight: 400;
   text-align: justify;
   color: #F0E9DF;
-  margin-right: 800px;
+  float: left;
   margin-left: 20px;
   margin-top: -40px;
   margin-bottom: 200px;
+  max-width: 65ch;
 }
 
 .rectangle {

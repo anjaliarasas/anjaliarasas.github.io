@@ -2,6 +2,12 @@ html {
   background-color: #F0E9DF
 }
 
+@media (min-width: 400px) {
+	 {
+
+	}
+}
+
 header {
   font-family: 'DM Serif Display', serif;
   text-decoration: underline;
@@ -171,46 +177,10 @@ a:visited {
   color: #365939;
 }
 
-h2, h3, .rectangleleft, .rectangleright {
+h2, h3 {
   display: inline-block;
 }
 
 h5, h6 {
   display: inline-block;
-}
-
-.rectangletop {
-  width: 1390px;
-  height: 4px;
-  background: #365939;
-  position: absolute;
-  margin-left: 15px;
-  margin-top: 0px;
-}
-
-.rectangleleft {
-  width: 4px;
-  height: 1828px;
-  background: #365939;
-  position: absolute;
-  margin-left: -185px;
-  margin-top: -1602px;
-}
-
-.rectangleright {
-  width: 4px;
-  height: 1828px;
-  background: #365939;
-  position: absolute;
-  margin-left: 1201px;
-  margin-top: -1602px;
-}
-
-.rectanglebottom {
-  width: 1388px;
-  height: 4px;
-  background: #365939;
-  position: absolute;
-  margin-left: -183px;
-  margin-top: 222px;
 }

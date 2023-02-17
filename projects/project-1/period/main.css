@@ -1,32 +1,54 @@
 html {
-  background-color: #DB9EC8;
+  background-color: #365939;
 }
 
 header {
-  color: #365939;
+  color: #DB9EC8;
   font-family: 'DM Serif Display', serif;
   font-size: 1100px;
   margin-top: -600px;
   margin-left: -200px;
 }
 
- {
-  color: #365939;
+ h1 {
+  color: #DB9EC8;
   font-family: 'DM Serif text', serif;
   font-size: 20px;
   font-weight: 400;
   text-align: justify;
-  margin-left: 50px;
+  margin-left: 40px;
   margin-top: -230px;
-  margin-right: 320px;
+  max-width: 75ch;
 }
 
 h2 {
-  color: #365939;
+  color: #DB9EC8;
   font-family: 'DM Serif text', serif;
   font-size: 20px;
   font-weight: 400;
   text-align: justify;
-  margin-left: 1400px;
-  margin-top: -700px;
+  margin-top: -1100px;
+  margin-left: 1100px;
+  min-width: 55ch;
+}
+
+h3 {
+  color: #DB9EC8;
+  font-family: 'DM Serif text', serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: justify;
+  margin-top: -1000px;
+  margin-left: 1500px;
+  min-width: 35ch;
+}
+
+h3 {
+  color: #DB9EC8;
+  font-family: 'DM Serif text', serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: justify;
+  margin-left: 1700px;
+  min-width: 35ch;
 }
