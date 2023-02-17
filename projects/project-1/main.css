@@ -190,20 +190,20 @@ h5, h6 {
 
 .rectangleleft {
   width: 4px;
-  height: 1800px;
+  height: 1828px;
   background: #365939;
   position: absolute;
   margin-left: -185px;
-  margin-top: -1575px;
+  margin-top: -1602px;
 }
 
 .rectangleright {
   width: 4px;
-  height: 1800px;
+  height: 1828px;
   background: #365939;
   position: absolute;
   margin-left: 1201px;
-  margin-top: -1575px;
+  margin-top: -1602px;
 }
 
 .rectanglebottom {

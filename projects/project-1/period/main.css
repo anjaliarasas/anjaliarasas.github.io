@@ -1,0 +1,32 @@
+html {
+  background-color: #DB9EC8;
+}
+
+header {
+  color: #365939;
+  font-family: 'DM Serif Display', serif;
+  font-size: 1100px;
+  margin-top: -600px;
+  margin-left: -200px;
+}
+
+ {
+  color: #365939;
+  font-family: 'DM Serif text', serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: justify;
+  margin-left: 50px;
+  margin-top: -230px;
+  margin-right: 320px;
+}
+
+h2 {
+  color: #365939;
+  font-family: 'DM Serif text', serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: justify;
+  margin-left: 1400px;
+  margin-top: -700px;
+}

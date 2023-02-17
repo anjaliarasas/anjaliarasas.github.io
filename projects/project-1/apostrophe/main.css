@@ -1,13 +1,11 @@
 
 h1 {
   font-family: 'Anton', sans-serif;
-  color: #F0E9DF;
+  color: #DB9EC8;
   font-size: 70px;
   text-decoration: underline;
-  position: absolute;
+  display: inline;
 }
-
-
 
 .leftbox {
   width: 685px;
@@ -28,11 +26,11 @@ h1 {
 }
 
 .leftbox:hover {
-  background: #DB9EC8;
+  background: #365939;
 }
 
 .rightbox:hover {
-  background: #DB9EC8;
+  background: #365939;
 }
 
 .leftbox, .rightbox {
@@ -41,27 +39,38 @@ h1 {
 
 
 .touse {
-  margin-left: 60px;
-  margin-top: 70px;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 0px;
 }
 
 .tonotuse {
-  margin-left: 120px;
-  margin-top: 70px;
+  margin-left: 120px
+  margin-top: 70px
 }
 
 h2 {
   font-family: 'DM Serif Display', serif;
+  font-weight: 400;
   color: #F0E9DF;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .textleft {
-  margin-left: 60px;
-  margin-top: 200px;
+  margin-left: 80px;
+  margin-right: 800px;
+  text-align: justify;
+  position: absolute;
 }
 
 .textright {
-  margin-left: 120px;
-  margin-top: 200px;
+  margin-left: 830px;
+  margin-right: 80px;
+  text-align: justify;
+  position: absolute;
+}
+
+.textleft, .textright {
+  display: inline-block;
+  position: relative;
 }
