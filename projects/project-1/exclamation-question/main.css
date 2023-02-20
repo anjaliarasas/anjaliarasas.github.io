@@ -2,12 +2,18 @@ html {
   background-color: #365939;
 }
 
-.period {
-  text-decoration: underline;
-  color: #DB9EC8;
+@media (max-width: 800px) {
+  .this {
+    font-size: 8vw;
+  }
+  h4 {
+    margin-left: 100%;
+    margin-bottom: 0px;
+  }
 }
 
-a {
+.period {
+  text-decoration: underline;
   color: #DB9EC8;
 }
 
@@ -20,12 +26,12 @@ a:visited {
   font-size: 96px;
   text-align: right;
   color: #F0E9DF;
-  margin-top: -70px;
-  margin-bottom: 0px;
-  margin-right: 40px;
   position: absolute;
-  top: -40px;
-  right: 16px;
+  margin-bottom: 0px;
+  margin-right: 4%;
+  position: absolute;
+  top: -16%;
+  right: -1%;
 }
 
 .website {
@@ -33,12 +39,11 @@ a:visited {
   font-size: 100px;
   text-align: right;
   color: #DB9EC8;
-  margin-top: 0px;
   margin-bottom: 0px;
-  margin-right: 40px;
+  margin-right: 4%;
   position: absolute;
-  top: 60px;
-  right: 16px;
+  top: 6%;
+  right: -1%;
 }
 
 .website:hover {
@@ -74,23 +79,22 @@ h3 {
   max-width: 65ch;
 }
 
-h3, h4 {
-  display: inline;
+
+a {
+  color: #DB9EC8;
+  margin-left: 10%;
+  color: #DB9EC8;
+  font-family: 'DM Serif text', serif;
+  font-size: 3vw;
+  font-weight: 400;
+  text-decoration:  none;
+  margin-top: 100%;
 }
 
 h4 {
-  font-family: 'Anton';
-  font-size: 40px;
-  text-align: right;
-  color: #DB9EC8;
-  float: right;
-  margin-top: 0px;
-  margin-right: 100px;
-  margin-left: 100px;
-  margin-bottom: 0px;
+  margin-top: 65%;
 }
 
-h4:hover {
+a:hover {
   text-decoration: underline;
-  color: #DB9EC8;
 }
