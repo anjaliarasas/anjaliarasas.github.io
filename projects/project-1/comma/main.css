@@ -63,6 +63,8 @@ a:hover {
   text-decoration: underline;
 }
 
-a:visited {
+
+mark {
   color: #365939;
+  background-color: #DB9EC8;
 }

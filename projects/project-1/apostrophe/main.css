@@ -99,9 +99,6 @@ a {
   justify-content: space-between;
 }
 
-a:visited {
-  color: #365939;
-}
 
 a:hover {
   text-decoration: underline;
