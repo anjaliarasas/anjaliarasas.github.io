@@ -1,52 +1,123 @@
 html {
-  background-image: url("../bg.png");
-  background-size: contain;
+  /*background-image: url("../scrapbook.png");
+  background-size: cover;
+  repeat: no-repeat;
+  */
+  background-color: grey;
+}
+
+@media screen and (max-width: 650px) {
+
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media only screen and (device-width: 414px) and (device-height: 896px) {
+
+}
+
+
+@media (max-width: 600px) {
+
+}
+
+.beetle2 {
+  transform: rotate(-5deg);
+  margin-top: -6em;
+  margin-bottom: -2em;
+  top: 0;
+  position: sticky;
+}
+
+.eye1 {
+  margin-top: 20em;
+  margin-left: 20em;
+  top: 0;
+  position: sticky;
+}
+
+h1 {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 28vh;
+  color: #EFEEEE;
+  text-align: center;
+  font-weight: 400;
+  -webkit-text-stroke-width: 0.25px;
+  -webkit-text-stroke-color: #01010D;
+  margin-bottom: 0em;
+  margin-top: -1em;
+  position: relative;
 }
 
 h2 {
-  font-family: 'Great Vibes', cursive;
-  font-size: 100px;
-  color: #FFF1B7;
+  font-family: 'Pinyon Script', cursive;
+  font-size: 10vh;
+  color: #EFEEEE;
+  font-weight: 400;
   text-align: center;
-  margin-top: 200px;
-  margin-bottom: 0px;
+  -webkit-text-stroke-width: 0.25px;
+  -webkit-text-stroke-color: #01010D;
+  margin-top: -1.25em;
+  position: relative;
 }
 
 h3 {
-  color: pink;
+  font-family: 'Pinyon Script', cursive;
+  font-size: 4vh;
+  color: #252525;
+  font-weight: 400;
+}
+
+h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2vh;
+  color: #252525;
+  font-weight: 400;
+}
+.brownpaper1 {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+  transform: rotate(-14.01deg);
+}
+
+a {
+  color: #252525;
+}
+
+a:visited {
+  color: #252525;
+}
+
+/*
+h3 {
+  color: #252525;
   font-size: 23px;
 }
 
 .exercises {
   text-align: left;
-  margin-left: 20px;
-  margin-top: 130px;
-  margin-bottom: 0px;
 }
 
 .projects {
   text-align: right;
-  margin-top: -150px;
-  margin-right: 30px;
 }
 
 .past {
   text-align: left;
-  margin-top: -100px;
-  margin-right: 30px;
 }
 
-.book:hover {
-  transform: rotate(1deg);
+.project1 {
+  text-align: right;
 }
 
 a {
-  color: pink;
+  color: #252525;
   text-decoration: underline;
 }
 a:visited {
   color: pink;
 }
-
-.text1, .text2, .text3, .exercises {
-}
+*/

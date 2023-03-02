@@ -1,0 +1,54 @@
+html {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.image {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+p, h1, h2, h3 {
+  font-family: 'EB Garamond', serif;
+  color: black;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+body {
+  background-color: pink;
+  padding: 3em;
+}
+
+@media screen and (max-width: 650px) {
+  body{
+    background-color: blue;
+  }
+  p, h1, h2, h3 {
+    color: pink;
+  }
+  h1, h2 {
+
+  }
+}
+
+@media screen and (min-width: 992px) {
+  h1, h2 {
+    font-size: 8vh;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (device-width: 414px) and (device-height: 896px) {
+  html {
+    background-color: #252525;
+    color: pink;
+  }
+  p {
+    font-size: 25px;
+  }
+}

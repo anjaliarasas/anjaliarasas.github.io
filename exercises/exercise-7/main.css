@@ -1,0 +1,41 @@
+body {
+  background: pink;
+}
+
+@keyframes floating {
+  0%{
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(300px);
+  }
+}
+
+@keyframes swirlspin {
+  0%{
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#bunny {
+}
+
+.bunnydiv {
+  animation: floating 3s infinite alternate;
+  width: 30vw;
+  height: auto;
+}
+
+#bunny2 {
+}
+
+.bunnydiv2 {
+  animation: swirlspin 2s infinite;
+  width: 30vw;
+  height: auto;
+  margin-left: 22em;
+  margin-top: 0em;
+}

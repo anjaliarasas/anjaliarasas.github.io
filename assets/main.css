@@ -7,12 +7,45 @@ html {
   cursor: url("sparkle.png"), auto;
 }
 
+@media (max-width: 600px) {
+  html {
+    background-image: none;
+    background-size: contain;
+  }
+  h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 18vw;
+    color: #E9E4CF;
+    text-align: left;
+    text-shadow: none;
+    text-align: center;
+    margin-top: 30vh;
+  }
+  h1:hover {
+    text-decoration:none;
+  }
+  h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 18vw;
+    color: #E9E4CF;
+    text-align: right;
+    text-shadow: none;
+    text-align: center;
+  }
+  h2:hover {
+    text-shadow: none;
+  }
+  .house {
+    width: 100%;
+  }
+}
+
 body {
 }
 
 h1 {
   font-family: 'Great Vibes', cursive;
-  font-size: 250px;
+  font-size: 18vw;
   color: #E9E4CF;
   text-align: left;
   margin-top: 0px;
@@ -29,7 +62,7 @@ h1:hover {
 
 h2{
   font-family: 'Great Vibes', cursive;
-  font-size: 230px;
+  font-size: 18vw;
   color: #E9E4CF;
   text-align: right;
   margin-top: 300px;
