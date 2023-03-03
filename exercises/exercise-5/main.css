@@ -80,6 +80,10 @@ li {
   margin-left: 0;
 }
 
+.day-grid {
+  position: relative;
+}
+
 ol.day-grid li {
   background-color: #2B2A29;
   border: 1px solid #2B2A29;
@@ -112,8 +116,8 @@ ol.day-grid li:nth-child(35) {
   border: 2px solid #383735;
   border-radius: 50%;
   position: absolute;
-  margin-top: -25em;
-  left: 40%;
+  margin-top: 1em;
+  left: 15%;
   right: 30%;
 }
 
@@ -125,8 +129,8 @@ ol.day-grid li:nth-child(35) {
   border: 2px solid #383735;
   border-radius: 50%;
   position: absolute;
-  margin-top: -25em;
-  left: 48%;
+  margin-top: 1em;
+  left: 35%;
   right: 30%;
 }
 
@@ -135,8 +139,8 @@ ol.day-grid li:nth-child(35) {
   height: 15em;
   background-color: #252525;
   position: absolute;
-  margin-top: -16em;
-  left: 39%;
+  margin-top: 10em;
+  left: 5%;
   right: 45%;
 }
 
@@ -145,9 +149,8 @@ ol.day-grid li:nth-child(35) {
   height: 15em;
   background-color: #252525;
   position: absolute;
-  margin-top: -16em;
-  left: 44%;
-  right: 45%;
+  margin-top: 10em;
+  left: 25%;
 }
 
 .rectangle4 {
@@ -155,9 +158,8 @@ ol.day-grid li:nth-child(35) {
   height: 15em;
   background-color: #252525;
   position: absolute;
-  margin-top: -16em;
-  left: 49%;
-  right: 45%;
+  margin-top: 10em;
+  left: 45%;
 }
 
 .rectangle5 {
@@ -165,9 +167,8 @@ ol.day-grid li:nth-child(35) {
   height: 15em;
   background-color: #252525;
   position: absolute;
-  margin-top: -16em;
-  left: 54%;
-  right: 45%;
+  margin-top: 10em;
+  left: 65%;
 }
 
 .rectangle6 {
@@ -175,9 +176,8 @@ ol.day-grid li:nth-child(35) {
   height: 15em;
   background-color: #252525;
   position: absolute;
-  margin-top: -16em;
-  left: 60%;
-  right: 60%;
+  margin-top: 10em;
+  left: 85%;
 }
 
 .rectangle7 {
@@ -194,8 +194,8 @@ ol.day-grid li:nth-child(35) {
   height: 10em;
   background-color: #EDEBD9;
   position: absolute;
-  margin-top: -12em;
-  left: 43%;
+  margin-top: 2em;
+  left: 20%;
   right: 30%;
 }
 
@@ -204,8 +204,8 @@ ol.day-grid li:nth-child(35) {
   height: 10em;
   background-color: #EDEBD9;
   position: absolute;
-  margin-top: -12em;
-  left: 44%;
+  margin-top: 4em;
+  left: 10%;
   right: 30%;
   transform: rotate(2deg);
 }
@@ -215,8 +215,8 @@ ol.day-grid li:nth-child(35) {
   height: 10em;
   background-color: #EDEBD9;
   position: absolute;
-  margin-top: -12em;
-  left: 60%;
+  margin-top: 4em;
+  left: 30%;
   right: 30%;
   transform: rotate(50deg);
 }
@@ -226,8 +226,8 @@ ol.day-grid li:nth-child(35) {
   height: 4em;
   background-color: #EDEBD9;
   position: absolute;
-  margin-top: -12em;
-  left: 60%;
+  margin-top: 4em;
+  left: 5%;
   right: 30%;
   transform: rotate(-50deg);
 }
@@ -237,8 +237,8 @@ ol.day-grid li:nth-child(35) {
   height: 6em;
   background-color: #EDEBD9;
   position: absolute;
-  margin-top: -17em;
-  left: 40%;
+  margin-top: 7em;
+  left: 80%;
   right: 30%;
   transform: rotate(-30deg);
 }
@@ -248,8 +248,8 @@ ol.day-grid li:nth-child(35) {
   height: 6em;
   background-color: #EDEBD9;
   position: absolute;
-  margin-top: -17em;
-  left: 50%;
+  margin-top: 7em;
+  left: 80%;
   right: 30%;
   transform: rotate(90deg);
 }
@@ -259,8 +259,8 @@ ol.day-grid li:nth-child(35) {
   height: 6em;
   background-color: #EDEBD9;
   position: absolute;
-  margin-top: -17em;
-  left: 56%;
+  margin-top: 7em;
+  left: 60%;
   right: 30%;
   transform: rotate(80deg);
 }
@@ -270,8 +270,8 @@ ol.day-grid li:nth-child(35) {
   height: 6em;
   background-color: #EDEBD9;
   position: absolute;
-  margin-top: -17em;
-  left: 58%;
+  margin-top: 7em;
+  left: 30%;
   right: 30%;
   transform: rotate(50deg);
 }
@@ -280,8 +280,8 @@ ol.day-grid li:nth-child(35) {
   height: 10em;
   background-color: #EDEBD9;
   position: absolute;
-  margin-top: -12em;
-  left: 45%;
+  margin-top: 3em;
+  left: 20%;
   right: 30%;
   transform: rotate(-20deg);
 }
@@ -291,8 +291,8 @@ ol.day-grid li:nth-child(35) {
   height: 10em;
   background-color: #EDEBD9;
   position: absolute;
-  margin-top: -12em;
-  left: 48%;
+  margin-top: 3em;
+  left: 70%;
   right: 30%;
   transform: rotate(30deg);
 }
@@ -302,8 +302,8 @@ ol.day-grid li:nth-child(35) {
   height: 10em;
   background-color: #EDEBD9;
   position: absolute;
-  margin-top: -12em;
-  left: 53%;
+  margin-top: 4em;
+  left: 30%;
   right: 30%;
   transform: rotate(30deg);
 }
@@ -313,7 +313,7 @@ ol.day-grid li:nth-child(35) {
   height: 6em;
   background-color: #EDEBD9;
   position: absolute;
-  margin-top: -20em;
+  margin-top: 9em;
   left: 59%;
   right: 30%;
   transform: rotate(80deg);
@@ -324,7 +324,7 @@ ol.day-grid li:nth-child(35) {
   height: 6em;
   background-color: #EDEBD9;
   position: absolute;
-  margin-top: -20em;
+  margin-top: 9em;
   left: 59%;
   right: 30%;
   transform: rotate(-3deg);
@@ -335,7 +335,7 @@ ol.day-grid li:nth-child(35) {
   height: 6em;
   background-color: #EDEBD9;
   position: absolute;
-  margin-top: -20em;
+  margin-top: 9em;
   left: 67%;
   right: 30%;
   transform: rotate(-20deg);
@@ -346,7 +346,7 @@ ol.day-grid li:nth-child(35) {
   height: 6em;
   background-color: #EDEBD9;
   position: absolute;
-  margin-top: -19em;
+  margin-top: 8em;
   left: 63%;
   right: 30%;
   transform: rotate(90deg);
@@ -357,7 +357,7 @@ ol.day-grid li:nth-child(35) {
   height: 6em;
   background-color: #EDEBD9;
   position: absolute;
-  margin-top: -19em;
+  margin-top: 8em;
   left: 63%;
   right: 30%;
   transform: rotate(140deg);
