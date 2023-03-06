@@ -1,0 +1,194 @@
+html {
+  background-color: white;
+}
+
+@keyframes redslide
+{
+    from {
+        left: 0;
+    }
+    to {
+        left: 100%;
+    }
+}
+
+@keyframes orangeslide
+{
+    from {
+        left: 0;
+    }
+    to {
+        left: 80%;
+    }
+}
+
+@keyframes yellowslide
+{
+    from {
+        left: 0;
+    }
+    to {
+        left: 60%;
+    }
+}
+
+@keyframes greenslide
+{
+    from {
+        left: 0;
+    }
+    to {
+        left: 40%;
+    }
+}
+
+@keyframes blueslide
+{
+    from {
+        left: 0;
+    }
+    to {
+        left: 60%;
+    }
+}
+
+@keyframes purpleslide
+{
+    from {
+        left: 0;
+    }
+    to {
+        left: 80%;
+    }
+}
+
+.top1 {
+ text-align: right;
+ background-color: red;
+ width: 50vw;
+ height: 11vh;
+ position: absolute;
+ animation: redslide 3s infinite alternate;
+ margin-left: 0px;
+}
+
+.top2 {
+  text-align: right;
+  background-color: orange;
+  width: 50vw;
+  height: 11vh;
+  position: absolute;
+  animation: orangeslide 3s infinite alternate;
+  margin-left: 0px;
+  margin-top: 11vh;
+}
+
+.top3 {
+  text-align: right;
+  background-color: yellow;
+  width: 50vw;
+  height: 11vh;
+  position: absolute;
+  animation: yellowslide 3s infinite alternate;
+  margin-left: 0px;
+  margin-top: 22vh;
+}
+
+.top4 {
+  text-align: right;
+  background-color: green;
+  width: 50vw;
+  height: 11vh;
+  position: absolute;
+  animation: greenslide 3s infinite alternate;
+  margin-left: 0px;
+  margin-top: 33vh;
+}
+
+.top5 {
+  text-align: right;
+  background-color: blue;
+  width: 50vw;
+  height: 11vh;
+  position: absolute;
+  animation: blueslide 3s infinite alternate;
+  margin-left: 0px;
+  margin-top: 44vh;
+}
+
+.top6 {
+  text-align: right;
+  background-color: purple;
+  width: 50vw;
+  height: 11vh;
+  position: absolute;
+  animation: purpleslide 3s infinite alternate;
+  margin-left: 0px;
+  margin-top: 55vh;
+}
+
+.top7 {
+ text-align: right;
+ background-color: red;
+ width: 50vw;
+ height: 11vh;
+ position: absolute;
+ animation: redslide 3s infinite alternate;
+ margin-left: 0px;
+ margin-top: 66vh;
+}
+
+.top8 {
+  text-align: right;
+  background-color: orange;
+  width: 50vw;
+  height: 11vh;
+  position: absolute;
+  animation: orangeslide 3s infinite alternate;
+  margin-left: 0px;
+  margin-top: 77vh;
+}
+
+.top9 {
+  text-align: right;
+  background-color: yellow;
+  width: 50vw;
+  height: 11vh;
+  position: absolute;
+  animation: yellowslide 3s infinite alternate;
+  margin-left: 0px;
+  margin-top: 88vh;
+}
+
+.top10 {
+  text-align: right;
+  background-color: green;
+  width: 50vw;
+  height: 11vh;
+  position: absolute;
+  animation: greenslide 3s infinite alternate;
+  margin-left: 0px;
+  margin-top: 99vh;
+}
+
+.top11 {
+  text-align: right;
+  background-color: blue;
+  width: 50vw;
+  height: 11vh;
+  position: absolute;
+  animation: blueslide 3s infinite alternate;
+  margin-left: 0px;
+  margin-top: 121vh;
+}
+
+.top12 {
+  text-align: right;
+  background-color: purple;
+  width: 50vw;
+  height: 11vh;
+  position: absolute;
+  animation: purpleslide 3s infinite alternate;
+  margin-left: 0px;
+  margin-top: 144vh;
+}
