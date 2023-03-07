@@ -1,94 +1,123 @@
 html {
-  background-image: url("house.jpg");
-  height: 80%;
-  background-position: center;
-  background-repeat: no-repeat;
+  /*background-image: url("../scrapbook.png");
   background-size: cover;
-  cursor: url("sparkle.png"), auto;
+  repeat: no-repeat;
+  */
+  background-color: grey;
 }
+
+@media screen and (max-width: 650px) {
+
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media only screen and (device-width: 414px) and (device-height: 896px) {
+
+}
+
 
 @media (max-width: 600px) {
-  html {
-    background-image: none;
-    background-size: contain;
-  }
-  h1 {
-    font-family: 'Great Vibes', cursive;
-    font-size: 18vw;
-    color: #E9E4CF;
-    text-align: left;
-    text-shadow: none;
-    text-align: center;
-    margin-top: 30vh;
-  }
-  h1:hover {
-    text-decoration:none;
-  }
-  h2 {
-    font-family: 'Great Vibes', cursive;
-    font-size: 18vw;
-    color: #E9E4CF;
-    text-align: right;
-    text-shadow: none;
-    text-align: center;
-  }
-  h2:hover {
-    text-shadow: none;
-  }
-  .house {
-    width: 100%;
-  }
+
 }
 
-body {
+.beetle2 {
+  transform: rotate(-5deg);
+  margin-top: -6em;
+  margin-bottom: -2em;
+  top: 0;
+  position: sticky;
+}
+
+.eye1 {
+  margin-top: 20em;
+  margin-left: 20em;
+  top: 0;
+  position: sticky;
 }
 
 h1 {
-  font-family: 'Great Vibes', cursive;
-  font-size: 18vw;
-  color: #E9E4CF;
-  text-align: left;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  position: absolute;
-  top: 40px;
-  left: 25px;
+  font-family: 'Pinyon Script', cursive;
+  font-size: 28vh;
+  color: #EFEEEE;
+  text-align: center;
+  font-weight: 400;
+  -webkit-text-stroke-width: 0.25px;
+  -webkit-text-stroke-color: #01010D;
+  margin-bottom: 0em;
+  margin-top: -1em;
+  position: relative;
 }
 
-h1:hover {
-  color: #F9E78A;
-  text-shadow: 0 0 20px #F9E78A;
+h2 {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 10vh;
+  color: #EFEEEE;
+  font-weight: 400;
+  text-align: center;
+  -webkit-text-stroke-width: 0.25px;
+  -webkit-text-stroke-color: #01010D;
+  margin-top: -1.25em;
+  position: relative;
 }
 
-h2{
-  font-family: 'Great Vibes', cursive;
-  font-size: 18vw;
-  color: #E9E4CF;
-  text-align: right;
-  margin-top: 300px;
-  margin-bottom: 0px;
-  position: absolute;
-  bottom: -40px;
-  right: 16px;
+h3 {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 4vh;
+  color: #252525;
+  font-weight: 400;
 }
 
-h2:hover {
-  color: #F9E78A;
-  text-shadow: 0 0 20px #F9E78A;
+h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2vh;
+  color: #252525;
+  font-weight: 400;
+}
+.brownpaper1 {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+  transform: rotate(-14.01deg);
 }
 
 a {
-  cursor: url("knock.png"), auto;
+  color: #252525;
 }
 
-
-.house {
-  text-align: center;
-  margin-top: 40px;
-  margin-bottom: 0px;
+a:visited {
+  color: #252525;
 }
 
-.house:hover {
+/*
+h3 {
+  color: #252525;
+  font-size: 23px;
 }
 
- /*cursor: url("knock.png"), auto;
+.exercises {
+  text-align: left;
+}
+
+.projects {
+  text-align: right;
+}
+
+.past {
+  text-align: left;
+}
+
+.project1 {
+  text-align: right;
+}
+
+a {
+  color: #252525;
+  text-decoration: underline;
+}
+a:visited {
+  color: pink;
+}
+*/
