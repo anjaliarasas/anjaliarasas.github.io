@@ -1,0 +1,238 @@
+html {
+  background: rgb(65,62,62);
+background: linear-gradient(180deg, rgba(65,62,62,1) 0%, rgba(10,10,10,1) 100%);
+}
+
+header {
+  font-family: 'Pinyon Script', cursive;
+  font-weight: 400;
+  font-size: 30vh;
+  color: white;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+.entry1, .entry2, .entry3, .entry4, .entry5, .entry6 {
+  color: white;
+  font-size: 2vw;
+  font-family: 'Nanum Brush Script', cursive;
+  font-weight: 400;
+  text-decoration: none;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+.entry1 {
+  margin-left: 8%;
+  margin-right: 0%;
+  margin-top: 20vw;
+  position: absolute;
+}
+
+.entry2 {
+  margin-left: 80%;
+  margin-top: -40%;
+  position: absolute;
+}
+
+.entry3 {
+  margin-left: 80%;
+  margin-top: 20%;
+  position: absolute;
+}
+
+.entry4 {
+  margin-left: 30%;
+  margin-top: -60%;
+  position: absolute;
+}
+
+.entry5 {
+  margin-left: 40%;
+  margin-top: 0%;
+  position: absolute;
+}
+
+.entry6 {
+  margin-left: 40%;
+  margin-top: 30%;
+  position: absolute;
+}
+
+a {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff2cc, 0 0 40px #fdedbd, 0 0 50px #fff2cc, 0 0 60px #fdedbd, 0 0 70px #fff2cc;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #fff2cc, 0 0 40px #fdedbd, 0 0 50px #fff2cc, 0 0 60px #fdedbd, 0 0 70px #fff2cc, 0 0 80px #fdedbd;
+  }
+}
+
+@keyframes smoothbounceball{
+    from { transform: translate3d(0, 0, 0);}
+    to { transform: translate3d(0, 3vw, 0);}
+}
+
+@-webkit-keyframes spin {
+        from {
+            -webkit-transform: rotate(0deg);
+        } to {
+            -webkit-transform: rotate(360deg);
+        }
+    }
+
+@-webkit-keyframes spin2 {
+          from {
+              -webkit-transform: rotate(0deg);
+          } to {
+              -webkit-transform: rotate(-180deg);
+          }
+      }
+@-webkit-keyframes spin3 {
+            from {
+              -webkit-transform: rotate(0deg);
+          } to {
+              -webkit-transform: rotate(180deg);
+              }
+          }
+
+.dream {
+  margin-left: 15%;
+}
+
+.journal {
+  margin-left: 35%;
+  margin-top: -8%;
+}
+
+.moon {
+  margin-top: 0em;
+  margin-left: 70em;
+  margin-bottom: 20em;
+  top: 0;
+  position: relative;
+  -webkit-animation-name: spin;
+    -webkit-animation-duration: 15s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+.moon2 {
+  margin: 4vw;
+  margin-top: 20vw;
+  position: absolute;
+  -webkit-animation-name: spin;
+    -webkit-animation-duration: 15s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+.star1, .star2, .star3, .star4, .star5, .star6, .star7, .star8, .tinystar1, .tinystar2, .tinystar3, .tinystar4, .tinystar5 {
+  -webkit-animation: smoothbounceball 1s ease-in-out infinite alternate;
+  -moz-animation: smoothbounceball 1s ease-in-out infinite alternate;
+  animation: smoothbounceball 1s ease-in-out infinite alternate;
+}
+
+.star1 {
+  margin-top: -40vw;
+  margin-left: 20vw;
+  margin-bottom: 10vw;
+  position: sticky;
+}
+
+.star2 {
+  margin-top: 10vw;
+  margin-left: 60vw;
+  position: sticky;
+}
+
+.star3 {
+  margin-top: 10vw;
+  margin-left: 70vw;
+  position: sticky;
+  transform: rotate(30deg);
+}
+
+.star4 {
+  margin-top: 0vw;
+  margin-left: 5vw;
+  position: sticky;
+}
+
+.star5 {
+  margin-top: 10vw;
+  margin-left: 30vw;
+  position: sticky;
+}
+
+.star6 {
+  margin-top: 10vw;
+  margin-left: 60vw;
+  position: sticky;
+}
+
+.star7 {
+  margin-top: 10vw;
+  margin-left: 80vw;
+  position: sticky;
+}
+
+.star8 {
+  margin-top: 0vw;
+  margin-left: 10vw;
+  position: sticky;
+}
+
+.tinystar1 {
+  margin-left: 40%;
+  position: static;
+}
+
+.tinystar2 {
+  margin-left: 80%;
+  margin-top: 10%;
+  position: static;
+}
+
+.tinystar3 {
+  -webkit-animation-name: spin2;
+    -webkit-animation-duration: 15s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+.tinystar4 {
+  margin-left: 50%;
+  margin-top: 10%;
+  position: static;
+}
+
+.tinystar5 {
+  margin-left: 20%;
+  margin-top: 10%;
+  position: static;
+}
+
+.tinystar6 {
+  margin-left: 40%;
+  margin-top: 0%;
+  position: static;
+  -webkit-animation-name: spin3;
+    -webkit-animation-duration: 15s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}

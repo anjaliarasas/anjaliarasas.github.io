@@ -1,0 +1,191 @@
+body {
+  background-color: #292929;
+}
+
+.frame {
+  width: 95vw;
+  height: 57vw;
+  background: white;
+  margin: 2.5vw auto;
+  position: relative;
+}
+
+.cloth {
+	height: 55vw;
+  width: 93vw;
+  background-color: red;
+  background: repeating-linear-gradient(
+  to right,
+  #FAE6CB,
+  #FAE6CB 10px,
+  #EC6059 10px,
+  #EC6059 20px);
+  margin-left: 1%;
+  margin-top: 1%;
+  position: absolute;
+}
+
+.book {
+  height: 23vw;
+  width: 23vw;
+  background-color: #A5854B;
+  position: absolute;
+  margin-top: 30%;
+  margin-left: 14%;
+
+}
+
+.title {
+  visibility: hidden;
+}
+
+.wood {
+  height: 10vw;
+  width: 10vw;
+  background: rgb(208,155,105);
+background: radial-gradient(circle, rgba(208,155,105,1) 0%, rgba(111,88,62,1) 100%);
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 2%;
+}
+
+.bottle {
+  height: 15vw;
+  width: 15vw;
+  background: rgb(194,232,137);
+background: radial-gradient(circle, rgba(194,232,137,1) 0%, rgba(114,151,58,1) 100%);
+  border: 5px solid #546B32;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 5%;
+  opacity: 80%;
+}
+
+.bottletip {
+  height: 5vw;
+  width: 5vw;
+  background: rgb(194,232,137);
+background: radial-gradient(circle, rgba(194,232,137,1) 0%, rgba(114,151,58,1) 100%);
+  border: 5px solid #546B32;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 31%;
+  margin-top: 31%;
+  opacity: 80%;
+}
+
+.orange {
+  height: 11vw;
+  width: 11vw;
+  background: rgb(255,116,46);
+background: radial-gradient(circle, rgba(255,116,46,1) 42%, rgba(227,183,100,1) 100%);
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 50%;
+}
+
+.peach {
+  height: 10vw;
+  width: 10vw;
+  background: rgb(193,129,151);
+background: radial-gradient(circle, rgba(193,129,151,1) 34%, rgba(227,183,100,1) 92%);
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 27%;
+  margin-left: 40%;
+}
+
+.eye {
+  width: 25vw;
+  height: 3vw;
+  background-color: white;
+  background: repeating-linear-gradient(
+  to top,
+  #F8FFEE  ,
+  #F8FFEE   2px,
+  #A5A5A3   2px,
+  #A5A5A3   3px);
+  position: absolute;
+  margin-left: 14%;
+  margin-top: 22%;
+  transform: rotate(-13deg);
+}
+
+.clearbottle {
+  height: 14vw;
+  width: 14vw;
+  background-color: white;
+  border: 5px solid white;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 16%;
+  margin-top: 6%;
+  opacity: 60%;
+}
+
+.clearbottletip {
+  height: 4vw;
+  width: 4vw;
+  background-color: white;
+  border: 5px solid grey;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 33%;
+  margin-top: 35%;
+  opacity: 100%;
+}
+
+.choco {
+  width: 28vw;
+  height: 5vw;
+  background-color: #292929;
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 46%;
+  transform: rotate(13deg);
+}
+
+h2 {
+  color: #81251A;
+  margin-left: 10%;
+  font-size: 3em;
+  margin-top: 2%;
+  position: absolute;
+}
+
+.cd {
+  height: 17vw;
+  width: 12vw;
+  background-color: grey;
+  border: 7px solid #81251A;
+  position: absolute;
+  margin-top: 27%;
+  margin-left: 70%;
+  transform: rotate(108deg);
+}
+
+.mirror {
+  height: 3vw;
+  width: 25vw;
+  background-color: #85AEB9;
+  border: 7px solid white;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 68%;
+  margin-top: 15%;
+  opacity: 100%;
+  transform: rotate(10deg);
+}
+
+.tape {
+  height: 16vw;
+  width: 3vw;
+  background-color: #292929;
+  position: absolute;
+  margin-top: 30%;
+  margin-left: 75%;
+  transform: rotate(88deg);
+}

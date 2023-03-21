@@ -1,0 +1,30 @@
+html {
+  background: rgb(246,237,199);
+}
+
+h1 {
+  font-family: 'Pinyon Script', cursive;
+  text-align: center;
+  margin-top: 25vw;
+  color: #2C2A2A;
+  margin-bottom: 0vw;
+  font-size: 3em;
+  font-weight: 400;
+}
+
+h2 {
+  color: #2C2A2A;
+  font-family: 'Nanum Brush Script', cursive;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 15vh;
+}
+
+a {
+  text-decoration: underline;
+  color: #2C2A2A;
+}
+
+a:visited {
+  color: #2C2A2A;
+}
