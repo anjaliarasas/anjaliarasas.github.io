@@ -1,0 +1,13 @@
+html {
+  background-color: pink;
+}
+
+.gallery-img {
+  max-width: 50vw;
+}
+
+.gallery {
+  display: flex;
+  grid-gap:1rm;
+  grid-template-columns: repeat(auto-fit, minmax(30vw, 1vw))
+}

@@ -1,11 +1,24 @@
-let color = "WOOF!!"
-  console.log(speak)
+let pics = [
+  {name:"bunny", url: "../../assets/bunny.png"},
+  {name:"beetle", url: "../../assets/beetle1.png"},
+  {name:"eye", url: "../../assets/eye.png"},
+  {name:"beetle2", url: "../../assets/beetle2.png"}
+]
 
-let char = speak[3];
-  console.log(speak.length)
-  console.log(char)
+function generateImages(pics) {
+  const img = document.createElement('img')
+  img.src = pics.url
+  img.classList.add('gallery-img')
 
-for(let i = 0; i < 10; i++) {
-  console.log("i love bread")
-  console.log(i)
+  const galleryItem = document.createElement('p')
+  paragraph.innerHTML = signs.name
+
+  const galleryItem = document.createElement("div")
+  galleryItem.appendChild(img)
+
+  galleryItem.appendChild(paragraph)
+
+  document.QuerySelector('.gallery').appendChild(galleryItem)
+
+  signs.forEach(generateImages)
 }

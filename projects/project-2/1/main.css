@@ -1,0 +1,47 @@
+html {
+  background-color: #1A1A1A;
+}
+
+h1, h3, h4, h5 {
+  color: rgb(246,237,199);
+  font-family: 'Nanum Brush Script', cursive;
+  font-weight: 400;
+  font-size: 1em;
+  width: 40vw;
+  text-align: justify;
+}
+
+h2 {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 2em;
+  color: rgb(246,237,199);
+}
+
+h1 {
+  margin-top: 30vw;
+}
+.star1 {
+  margin-top: 0vw;
+  margin-left: 20vw;
+  margin-bottom: 10vw;
+  position: absolute;
+}
+
+.star2 {
+  margin-top: 10vw;
+  margin-left: 60vw;
+  position: absolute;
+}
+
+.star3 {
+  margin-top: 10vw;
+  margin-left: 70vw;
+  position: absolute;
+  transform: rotate(30deg);
+}
+
+.star4 {
+  margin-top: 0vw;
+  margin-left: 5vw;
+  position: absolute;
+}
