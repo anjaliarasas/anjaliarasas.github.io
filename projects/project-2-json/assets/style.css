@@ -47,11 +47,10 @@ html {
 
 	}
 	h1 {
-		text-align: right;
+		text-align: left;
 		font-size: 2vw;
 		margin-top: 0vw;
 		margin-left: 72vw;
-		min-width: 20vw;
 		margin-top: -10vw;
 	}
   }
@@ -61,12 +60,18 @@ html {
 }
 
 h1 {
-	text-align: right;
+	float: left;
 	font-size: 4vw;
 	margin-top: -10vw;
 }
 
 h1:hover {
+	-webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+a {
 	-webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
