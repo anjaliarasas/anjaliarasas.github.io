@@ -1,21 +1,34 @@
 html {
-  background: rgb(65,62,62);
-background: linear-gradient(180deg, rgba(65,62,62,1) 0%, rgba(10,10,10,1) 100%);
+  background-image: url("../imgs/starbg.png") ;
+  background-size: contain;
+}
+
+
+@media only screen and (min-width: 600px) {
+  .entries {
+    display: flex;
+          align-items: center;
+          justify-content: center;
+          -webkit-align-items: center;
+  }
 }
 
 header {
   font-family: 'Pinyon Script', cursive;
   font-weight: 400;
-  font-size: 30vh;
   color: white;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
+  text-decoration: none;
 }
-
 .entry1, .entry2, .entry3, .entry4, .entry5, .entry6 {
   color: white;
   font-size: 2vw;
+  display: inline-block;
+  margin-top: 15vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
   font-family: 'Nanum Brush Script', cursive;
   font-weight: 400;
   text-decoration: none;
@@ -24,53 +37,13 @@ header {
   animation: glow 1s ease-in-out infinite alternate;
 }
 
-.entry1 {
-  margin-left: 8%;
-  margin-right: 0%;
-  margin-top: 20vw;
-  position: absolute;
-}
-
-.entry2 {
-  margin-left: 80%;
-  margin-top: -40%;
-  position: absolute;
-}
-
-.entry3 {
-  margin-left: 80%;
-  margin-top: 20%;
-  position: absolute;
-}
-
-.entry4 {
-  margin-left: 30%;
-  margin-top: -60%;
-  position: absolute;
-}
-
-.entry5 {
-  margin-left: 40%;
-  margin-top: 0%;
-  position: absolute;
-}
-
-.entry6 {
-  margin-left: 40%;
-  margin-top: 30%;
-  position: absolute;
-}
-
 a {
-  color: white;
+  text-decoration: none;
 }
 
-a:visited {
-  color: white;
-}
 
 a:hover {
-    text-decoration: underline;
+   text-decoration: none;
 }
 
 @-webkit-keyframes glow {
@@ -85,6 +58,11 @@ a:hover {
 @keyframes smoothbounceball{
     from { transform: translate3d(0, 0, 0);}
     to { transform: translate3d(0, 3vw, 0);}
+}
+
+@keyframes smoothbounceball2{
+  from { transform: translate3d(0, 3vw, 0);}
+  to { transform: translate3d(0, 0, 0);}
 }
 
 @-webkit-keyframes spin {
@@ -102,66 +80,98 @@ a:hover {
               -webkit-transform: rotate(-180deg);
           }
       }
+
+
 @-webkit-keyframes spin3 {
             from {
               -webkit-transform: rotate(0deg);
           } to {
-              -webkit-transform: rotate(180deg);
+              -webkit-transform: rotate(10deg);
               }
           }
 
+  
+          
+          .moon {
+            margin-top: 0em;
+            margin-right: 0%;
+            margin-left: 0%;
+            margin-bottom: 20em;
+            top: 0;
+            position: relative;
+            -webkit-animation-name: spin;
+              -webkit-animation-duration: 15s;
+              -webkit-animation-iteration-count: infinite;
+              -webkit-animation-timing-function: linear;
+            opacity: 80%;
+          }
+          
+
 .dream {
-  margin-left: 15%;
+  margin-left: 13%;
+  font-size: 18vw;
 }
 
 .journal {
   margin-left: 35%;
   margin-top: -8%;
+  font-size: 18vw;
 }
 
-.moon {
-  margin-top: 0em;
-  margin-left: 70em;
-  margin-bottom: 20em;
-  top: 0;
-  position: relative;
-  -webkit-animation-name: spin;
-    -webkit-animation-duration: 15s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-}
-
-.moon2 {
-  margin: 4vw;
-  margin-top: 20vw;
-  position: absolute;
-  -webkit-animation-name: spin;
-    -webkit-animation-duration: 15s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-}
-
-.star1, .star2, .star3, .star4, .star5, .star6, .star7, .star8, .tinystar1, .tinystar2, .tinystar3, .tinystar4, .tinystar5 {
+.star1, .star2, .star3, .star4, .star5, .star6, .star7, .tinystar1, .tinystar2, .tinystar3, .tinystar4, .tinystar5 {
   -webkit-animation: smoothbounceball 1s ease-in-out infinite alternate;
   -moz-animation: smoothbounceball 1s ease-in-out infinite alternate;
   animation: smoothbounceball 1s ease-in-out infinite alternate;
 }
 
+.star8 {
+  -webkit-animation: smoothbounceball2 1s ease-in-out infinite alternate;
+  -moz-animation: smoothbounceball2 1s ease-in-out infinite alternate;
+  animation: smoothbounceball2 1s ease-in-out infinite alternate;
+}
+
+.row1 {
+  margin-left: 10%;
+  -webkit-animation-name: spin3;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: alternate-reverse;
+}
+
+.row2 {
+  margin-left: 40%;
+}
+
+.row3 {
+  margin-left: 60%;
+  -webkit-animation-name: spin2;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: alternate-reverse;
+}
+
+.row4 {
+  margin-left: 80%;
+}
 .star1 {
-  margin-top: -40vw;
-  margin-left: 20vw;
+  margin-top: -90vw;
+  margin-left: 30vw;
   margin-bottom: 10vw;
   position: sticky;
 }
 
 .star2 {
-  margin-top: 10vw;
-  margin-left: 60vw;
+  margin-top: 0vw;
+  margin-left: 50vw;
   position: sticky;
+  -webkit-animation-name: spin2;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
 }
 
 .star3 {
-  margin-top: 10vw;
+  margin-top: 0vw;
   margin-left: 70vw;
   position: sticky;
   transform: rotate(30deg);
@@ -174,26 +184,14 @@ a:hover {
 }
 
 .star5 {
-  margin-top: 10vw;
+  margin-top: 0vw;
   margin-left: 30vw;
   position: sticky;
 }
 
 .star6 {
-  margin-top: 10vw;
-  margin-left: 60vw;
-  position: sticky;
-}
-
-.star7 {
-  margin-top: 10vw;
-  margin-left: 80vw;
-  position: sticky;
-}
-
-.star8 {
   margin-top: 0vw;
-  margin-left: 10vw;
+  margin-left: 90vw;
   position: sticky;
 }
 
@@ -227,7 +225,7 @@ a:hover {
   position: static;
 }
 
-.tinystar6 {
+.tinystar6, .tinystar7 {
   margin-left: 40%;
   margin-top: 0%;
   position: static;
@@ -235,4 +233,25 @@ a:hover {
     -webkit-animation-duration: 15s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Nanum Brush Script', cursive;
+  color: rgb(246,237,199);
+  font-size: 3vw;
+  font-weight: 400;
+}
+
+a:visited {
+  color: rgb(246,237,199);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(246,237,199);
+  text-decoration: none;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
 }
