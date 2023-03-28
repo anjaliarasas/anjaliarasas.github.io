@@ -4,12 +4,9 @@ html {
 }
 
 
-@media only screen and (min-width: 600px) {
-  .entries {
-    display: flex;
-          align-items: center;
-          justify-content: center;
-          -webkit-align-items: center;
+@media only screen and (min-width: 800px) {
+  .moon {
+max-width: 100%;
   }
 }
 

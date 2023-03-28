@@ -139,6 +139,11 @@ li:hover {
   color: rgb(246,237,199);
 }
 
+.topstarbg {
+	margin-top: -16.5%;
+	width: 120%;
+}
+
 @-webkit-keyframes glow {
 	from {
 	  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff2cc, 0 0 40px #fdedbd, 0 0 50px #fff2cc, 0 0 60px #fdedbd, 0 0 70px #fff2cc;
