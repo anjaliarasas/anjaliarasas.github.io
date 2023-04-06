@@ -1,0 +1,67 @@
+body {
+    margin-left: 45%;
+    margin-top: 10%;
+}
+
+h2, h3, h4 {
+    font-weight: 400;
+}
+
+h1, h2, h3, h4 {
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+h1 {
+    margin-left: -20%;
+}
+
+footer {
+    margin-top: 10%;
+}
+
+#rect1 {
+    fill:rgb(221,226,252);
+    stroke: #252525;
+}
+
+#rect2 {
+    fill:#f4869d;
+    stroke: #252525;
+}
+
+#rect3 {
+    fill:#f4869d;
+    stroke: #252525;
+}
+
+#rect4 {
+    fill:#f4869d;
+    stroke: #252525;
+}
+
+#rect5 {
+    fill:#f4869d;
+    stroke: #252525;
+}
+
+#rect6 {
+    fill:#f4869d;
+    stroke: #252525;
+}
+
+#circle1 {
+        stroke:#f4869d;
+        fill: #fce9ed;
+}
+
+#circle2 {
+    stroke:#f4869d;
+    fill: #fce9ed;
+}
+
+
