@@ -57,6 +57,7 @@ footer {
 #circle1 {
         stroke:#f4869d;
         fill: #fce9ed;
+        box-shadow: 120px 80px 40px 20px #0ff;
 }
 
 #circle2 {
@@ -64,4 +65,10 @@ footer {
     fill: #fce9ed;
 }
 
+a:visited {
+    color: #252525;
+}
 
+a {
+    color: #252525;
+}
