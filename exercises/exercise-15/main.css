@@ -1,0 +1,88 @@
+#full {
+    display: grid;
+    width: 100%;
+    height: 10vw;
+    grid-template-areas:
+      "head head"
+      "nav  main"
+      ". foot";
+    grid-template-rows: 10vw 1fr 30px;
+    grid-template-columns: 20vw 1fr;
+  }
+  
+  #full > header {
+    grid-area: head;
+    background-color: 
+    #F5f5f5;
+    position: sticky;
+  }
+  
+  #full > nav {
+    grid-area: nav;
+    height: 30vw;
+    background-color: #F5f5f5;
+  }
+  
+  #full > footer {
+    grid-area: foot;
+    background-color:  #dbddf6;
+    height: 10vw;
+  }
+
+  #full > main {
+    grid-area: main;
+    background-color: 
+    #Fddfe0;
+    width: 80vw;
+    height: 30vw;
+    overflow: scroll;
+    columns: 1;
+  }
+
+
+  header, main, nav, footer {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    color: #252525;
+  }
+
+  li {
+    list-style: none;
+    margin: 1vw;
+  }
+
+  header {
+    font-size: 3vw;
+    text-align: center;
+    margin: 1vw;
+  }
+
+  .fav {
+    background-color: white;
+  }
+
+  li:hover {
+    color: white;
+  }
+
+  .cat2 {
+    text-align: center;
+    margin-top: 2vw;
+  }
+
+  .meow {
+    margin-left: 28vw;
+    background-color: white;
+    position: absolute;
+    margin-top: 3vw;
+    padding: 1vw;
+  }
+
+  .breed {
+    margin: 2vw;
+    text-decoration: underline;
+  }
+
+  ul {
+    display: grid;
+  }
