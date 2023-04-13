@@ -1,3 +1,33 @@
+@media only screen and (max-width: 600px) {
+  #full > nav {
+    grid-area: nav;
+    height: 100vh;
+    background-color: #F5f5f5;
+  }
+  #full > main {
+    width: 60vw;
+    height: 200vh;
+    columns: 2;
+    overflow: scroll;
+  }
+
+  main {
+    height: 200vh;
+  }
+  ul {
+    grid-template-columns: repeat(1, 2fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 1vh;
+    grid-row-gap: 1vh;
+    justify-items: stretch;
+    align-items: stretch;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+  
+}
+
 #full {
     display: grid;
     width: 100%;
@@ -31,6 +61,7 @@
 
   #full > main {
     grid-area: main;
+    display: grid;
     background-color: 
     #Fddfe0;
     width: 80vw;
@@ -85,4 +116,23 @@
 
   ul {
     display: grid;
+  }
+
+  .name {
+    font-weight: 600;
+  }
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 1vh;
+  grid-row-gap: 1vh;
+  justify-items: stretch;
+  align-items: stretch;
+  }
+
+  .cat {
+    position: absolute;
+    margin-left: 83vw;
   }
