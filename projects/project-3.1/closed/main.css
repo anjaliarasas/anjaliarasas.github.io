@@ -1,5 +1,5 @@
 html {
-	color: white;
+	color: rgb(246,237,199);
 }
 
 @media only screen and (min-width: 800px) {
@@ -7,33 +7,21 @@ html {
 }
 
 h1 {
-	font-size: 1.25vw;
+	font-size: 2vw;
 	color: #252525;
+	margin-left: 1vw;
+	text-align: left;
+	font-family: 'Times New Roman', serif;
 	position: sticky;
 	font-weight: 400;
-	float: right;
-	margin-left: 1vw;
-	margin-right: 4vw;
-	font-family: 'Roboto', sans-serif;
 }
-
-
-.closed {
-	margin-top: 1vw;
-}
-
-.all {
-	margin-top: 3vw;
-}
-
 header {
 	font-size: 15vw;
 	color: #252525;
 	text-align: center;
-	margin-left: 6vw;
-	margin-top: 10vw;
+	margin-left: 5vw;
 	font-family: 'Times New Roman', serif;
-	position: fixed;
+	position: sticky;
 }
 
 .collection {
@@ -44,25 +32,22 @@ header {
   margin-top: 15vw;
   margin-left: -4vw;
   margin-right: 5vw;
+  font-family: 'Times New Roman', serif;
   font-weight: 400;
   text-decoration: none;
 }
 
 li {
-	padding: 3vw;
-	background-color: #3c6396;
+	display: grid;
+	padding: 10vw;
+	background-color: #CA5C5C;
 	opacity: 70%;
-	font-family: 'Roboto', sans-serif;
 }
 
 ul {
 	display: grid;
 	gap: var(--spacing);
-	margin-top: 60vw;
-	margin-left: 0vw;
-	position: absolute;
-	max-width: 30vw;
-
+	margin-top: 0%;
 }
 
 a {
@@ -73,5 +58,3 @@ a:hover {
 	text-decoration: underline;
 	color: #252525;
 } 
-
-/*background-color: #CA5C5C;*/
