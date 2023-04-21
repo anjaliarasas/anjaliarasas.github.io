@@ -1,8 +1,8 @@
+
 // Function to render your items
 const renderItems = (collection) => {
 	// The `ul` where the items will be inserted
 	const collectionList = document.getElementById('collection')
-
 
 	// Loop through each item in the collection array
 	collection.forEach(item => {
@@ -22,30 +22,30 @@ const renderItems = (collection) => {
 		// This can get annoying, so we can use “template literals” instead
 		const itemDetails =
 			`
-				<p>${item.collection}</p>
-				<p>${item.data}</p>
-				<p>${item.title}</p>
-				<p>${item.address}</p>
-				<p>${item.phone}</p>
-				<p>${item.position}</p>
-				<p>${item.bus}</p>
-				<p>${item.subway}</p>
-				<p>${item.Monday}</p>
-				<p>${item.Tuesday}</p>
-				<p>${item.Wednesday}</p>
-				<p>${item.Thursday}</p>
-				<p>${item.Friday}</p>
-				<p>${item.Saturday}</p>
-				<p>${item.Sunday}</p>
-				<p>${item.hours}</p>
-				<p>${item.closingmsg}</p>
-				<p>${item.access}</p>
-				<p>${item.tags}</p>
-				<p>${item.path}</p>
-				<p>${item.branchid}</p>
-				<p>${item.pickuploc}</p>
-				<p>${item.branchlist}</p>
-				<p>${item.region}</p>
+				<p>${item.data.collection}</p>
+				<p>${item.data.data}</p>
+				<p>${item.data.title}</p>
+				<p>${item.data.address}</p>
+				<p>${item.data.phone}</p>
+				<p>${item.data.position}</p>
+				<p>${item.data.bus}</p>
+				<p>${item.data.subway}</p>
+				<p>${item.data.Monday}</p>
+				<p>${item.data.Tuesday}</p>
+				<p>${item.data.Wednesday}</p>
+				<p>${item.data.Thursday}</p>
+				<p>${item.data.Friday}</p>
+				<p>${item.data.Saturday}</p>
+				<p>${item.data.Sunday}</p>
+				<p>${item.data.hours}</p>
+				<p>${item.data.closingmsg}</p>
+				<p>${item.data.access}</p>
+				<p>${item.data.tags}</p>
+				<p>${item.data.path}</p>
+				<p>${item.data.branchid}</p>
+				<p>${item.data.pickuploc}</p>
+				<p>${item.data.branchlist}</p>
+				<p>${item.data.region}</p>
 			`
 		listItem.insertAdjacentHTML('beforeend', itemDetails) // Which can we then insert
 
@@ -60,5 +60,5 @@ fetch('collection.json')
 	.then(response => response.json())
 	.then(collection => {
 		// And passes the data to the function, above!
-		renderItems(collection.reverse()) // In reverse order
+		renderItems(collection[0].collection) // In reverse order
 	})
