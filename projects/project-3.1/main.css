@@ -1,0 +1,54 @@
+html {
+	color: rgb(246,237,199);
+}
+
+@media only screen and (min-width: 800px) {
+
+}
+
+h1 {
+	font-size: 2vw;
+	color: #252525;
+	margin-left: 1vw;
+	text-align: left;
+	font-family: 'Times New Roman', serif;
+	position: sticky;
+	font-weight: 400;
+}
+header {
+	font-size: 15vw;
+	color: #252525;
+	text-align: center;
+	margin-left: 5vw;
+	font-family: 'Times New Roman', serif;
+	position: sticky;
+}
+
+.collection {
+	max-width: 50vw;
+	color: white;
+  font-size: 3vw;
+  display: inline-block;
+  margin-top: 15vw;
+  margin-left: -4vw;
+  margin-right: 5vw;
+  font-family: 'Times New Roman', serif;
+  font-weight: 400;
+  text-decoration: none;
+  text-align: justify;
+}
+
+li {
+	display: grid;
+	gap: var(--spacing);
+	padding: 10vw;
+	background-color: #CA5C5C;
+	opacity: 70%;
+	position: absolute;
+}
+
+ul {
+	display: grid;
+	gap: var(--spacing);
+	margin-top: 0%;
+}
