@@ -1,0 +1,24 @@
+html {
+    background-image: url("assets/test.png") ;
+    background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.fill {
+    width: 500px;
+    height: 1000px;
+    background-color: none;
+}
+
+.fill2 {
+    width: 10px;
+    height: 1000px;
+    background-color: none;
+}
+
+.fill3 {
+    width: 10px;
+    height: 1000px;
+    background-color: none;
+}

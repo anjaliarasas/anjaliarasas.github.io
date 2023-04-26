@@ -1,0 +1,76 @@
+.slide3 {
+    margin-left: 30%;
+}
+
+.slide4 {
+    margin-left: 0%;
+    margin-top: 15%;
+}
+
+h2 {
+    font-family: 'DM Serif Display', serif;
+  text-align: center;
+  font-size: 3vw;
+  color: #365939;
+  font-weight: 400;
+  margin-bottom: 30%;
+}
+
+.figma {
+    font-family: 'DM Serif Display', serif;
+  text-align: center;
+  font-size: 5vw;
+  color: #365939;
+  margin-bottom: 15%;
+}
+
+a:visited {
+    color: #365939;
+}
+
+a:hover {
+    color: #DB9EC8;
+}
+
+html {
+    background-color: #F0E9DF
+  }
+
+  header {
+    font-family: 'Anton';
+  text-align: center;
+  font-size: 12vw;
+  color: #365939;
+  text-decoration: underline;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  }
+
+  .site1 {
+    margin-left: 25%;
+    margin-top: 10%;
+  }
+
+  .site2 {
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+
+  .site3 {
+    margin-left: 25%;
+    margin-top: 10%;
+  }
+
+  .site4 {
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+
+  .final {
+    font-family: 'DM Serif Display', serif;
+  text-align: center;
+  font-size: 5vw;
+  padding: 10%;
+    color: #365939;
+    margin-bottom: 20%;
+}
