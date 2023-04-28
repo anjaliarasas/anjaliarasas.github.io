@@ -2,13 +2,30 @@ html {
 	color: white;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (max-width: 600px) {
 header{
 	font-size: 30vw;
 }
 .collection {
   margin-left: 5vw;
 }
+.library1, .library2, .library3, .library4, .library5, .library6 {
+	float: right;
+	margin-right: 5vw;
+}
+
+h2 {
+	font-size: 2vw;
+}
+
+h3 {
+	font-size: 2vw;
+}
+
+h4 {
+	font-size: 2vw;
+}
+
 h1 {
 	font-size: 3vw;
 }
@@ -25,15 +42,115 @@ h1 {
 	font-family: 'Roboto', sans-serif;
 }
 
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.75vw;
+	color: #252525;
+	position: absolute;
+	font-weight: 400;
+	max-width: 200vw;
+	padding: 1%;
+	background-color: white;
+}
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.75vw;
+	color: #252525;
+	position: absolute;
+	font-weight: 400;
+	max-width: 200vw;
+	padding: 1%;
+	background-color: white;
+}
+
+h4 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.75vw;
+	color: #252525;
+	position: absolute;
+	font-weight: 400;
+	max-width: 200vw;
+	padding: 1%;
+	background-color: white;
+}
+
+h5 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.75vw;
+	color: #252525;
+	position: absolute;
+	font-weight: 400;
+	max-width: 200vw;
+	padding: 1%;
+	background-color: white;
+}
+
+h6 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.75vw;
+	color: #252525;
+	position: absolute;
+	font-weight: 400;
+	max-width: 200vw;
+	padding: 1%;
+	background-color: white;
+}
+
+.library1 {
+	position: relative;
+	margin-right: -19%;
+	margin-top: 100%;
+	float: right;
+}
+
+.library2 {
+	position: relative;
+	margin-right: -19%;
+	margin-top: 140%;
+	float: right;
+}
+
+.library3 {
+	position: relative;
+	margin-right: -19%;
+	margin-top: 180%;
+	float: right;
+}
+
+.library4 {
+	position: relative;
+	margin-right: -19%;
+	margin-top: 240%;
+	float: right;
+}
+
+.library5 {
+	position: relative;
+	margin-right: -19%;
+	margin-top: 270%;
+	float: right;
+}
+
 
 .closed {
 	margin-top: 1vw;
+	cursor: pointer;
+
 }
 
 .all {
 	margin-top: 3vw;
+	cursor: pointer;
+
+}
+.open {
+	margin-top: 1vw;
+	cursor: pointer;
 }
 
+
+	
 header {
 	font-size: 15vw;
 	color: #252525;

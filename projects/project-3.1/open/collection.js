@@ -1,4 +1,3 @@
-
 // Function to render your items
 const renderItems = (collection) => {
 	// The `ul` where the items will be inserted
@@ -22,16 +21,30 @@ const renderItems = (collection) => {
 		// This can get annoying, so we can use “template literals” instead
 		const itemDetails =
 			`
-				
+				<p>${item.data.collection}</p>
+				<p>${item.data.data}</p>
 				<p>${item.data.title}</p>
 				<p>${item.data.address}</p>
 				<p>${item.data.phone}</p>
+				<p>${item.data.position}</p>
 				<p>${item.data.bus}</p>
 				<p>${item.data.subway}</p>
+				<p>${item.data.Monday}</p>
+				<p>${item.data.Tuesday}</p>
+				<p>${item.data.Wednesday}</p>
+				<p>${item.data.Thursday}</p>
+				<p>${item.data.Friday}</p>
+				<p>${item.data.Saturday}</p>
+				<p>${item.data.Sunday}</p>
 				<p>${item.data.hours}</p>
 				<p>${item.data.closingmsg}</p>
 				<p>${item.data.access}</p>
 				<p>${item.data.tags}</p>
+				<p>${item.data.path}</p>
+				<p>${item.data.branchid}</p>
+				<p>${item.data.pickuploc}</p>
+				<p>${item.data.branchlist}</p>
+				<p>${item.data.region}</p>
 			`
 		listItem.insertAdjacentHTML('beforeend', itemDetails) // Which can we then insert
 
@@ -40,8 +53,6 @@ const renderItems = (collection) => {
 }
 
 
-//<p>${item.data.Monday}</p><p>${item.data.Tuesday}</p><p>${item.data.Wednesday}</p><p>${item.data.Thursday}</p><p>${item.data.Friday}</p><p>${item.data.Saturday}</p><p>${item.data.Sunday}</p>
-//
 
 // Fetch gets your JSON file…
 fetch('collection.json')

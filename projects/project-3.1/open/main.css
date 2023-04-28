@@ -2,11 +2,13 @@ html {
 	color: white;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width: 800px) {
 header{
 	font-size: 30vw;
 }
-
+.collection {
+  margin-left: 5vw;
+}
 h1 {
 	font-size: 3vw;
 }
@@ -24,34 +26,30 @@ h1 {
 }
 
 
-
 .closed {
 	margin-top: 1vw;
-	cursor: pointer;
 }
 
 .all {
 	margin-top: 3vw;
-	cursor: pointer;
 }
 
 header {
 	font-size: 15vw;
 	color: #252525;
-	text-align: center;
-	margin-left: 30%;
-	margin-top: 17%;
+	margin-left: 32%;
+	margin-top: 16%;
 	font-family: 'Times New Roman', serif;
 	position: fixed;
 }
 
 .collection {
-	max-width: 30vw;
+	max-width: 50vw;
 	color: white;
-  font-size: 1.15vw;
+  font-size: 2vw;
   display: inline-block;
   margin-top: 15vw;
-  margin-left: 0vw;
+  margin-left: -4vw;
   margin-right: 5vw;
   font-weight: 400;
   text-decoration: none;
@@ -62,7 +60,6 @@ li {
 	background-color: #3c6396;
 	opacity: 70%;
 	font-family: 'Roboto', sans-serif;
-	max-width: 30vw;
 }
 
 ul {
@@ -75,5 +72,13 @@ ul {
 
 }
 
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #252525;
+} 
 
 /*background-color: #CA5C5C;*/
