@@ -31,15 +31,34 @@ h1 {
 }
 }
 
+.library6 {
+	margin-top: 2%;
+	margin-left: 2%;
+}
 h1 {
 	font-size: 1.25vw;
 	color: #252525;
-	position: sticky;
 	font-weight: 400;
 	float: right;
 	margin-left: 1vw;
 	margin-right: 4vw;
 	font-family: 'Roboto', sans-serif;
+}
+
+.open {
+	position: fixed;
+	margin-left: 75%;
+}
+
+.closed {
+	position: fixed;
+	margin-left: 85%;
+}
+
+.all {
+	position: fixed;
+	margin-left: 95%;
+	margin-top: -5vw;
 }
 
 h2 {
@@ -99,37 +118,42 @@ h6 {
 
 .library1 {
 	position: relative;
-	margin-right: -19%;
+	margin-right: 5%;
 	margin-top: 100%;
 	float: right;
 }
 
 .library2 {
 	position: relative;
-	margin-right: -19%;
+	margin-right: 5%;
 	margin-top: 140%;
 	float: right;
 }
 
 .library3 {
 	position: relative;
-	margin-right: -19%;
+	margin-right: 5%;
 	margin-top: 180%;
 	float: right;
 }
 
 .library4 {
 	position: relative;
-	margin-right: -19%;
+	margin-right: -35%;
 	margin-top: 240%;
 	float: right;
 }
 
 .library5 {
 	position: relative;
-	margin-right: -19%;
-	margin-top: 270%;
+	margin-right: -55%;
+	margin-top: 330%;
 	float: right;
+}
+
+.library8 {
+	margin-left: 57%;
+	margin-top: 15%;
 }
 
 
@@ -166,7 +190,7 @@ header {
 	color: white;
   font-size: 2vw;
   display: inline-block;
-  margin-top: 15vw;
+  margin-top: 10vw;
   margin-left: -4vw;
   margin-right: 5vw;
   font-weight: 400;
@@ -183,7 +207,7 @@ li {
 ul {
 	display: grid;
 	gap: var(--spacing);
-	margin-top: 60vw;
+	margin-top: 45vw;
 	margin-left: 0vw;
 	position: absolute;
 	max-width: 30vw;
