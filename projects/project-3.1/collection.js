@@ -49,12 +49,6 @@ fetch('collection.json')
 	.then(collection => {
 		// And passes the data to the function, above!
 		renderItems(collection[0].collection) // In reverse order
-
-		function changeColor(id)
-{
-  document.getElementById(id).style.color = "#ff0000"; // forecolor
-  document.getElementById(id).style.backgroundColor = "#ff0000"; // backcolor
-}
 	})
 
 	

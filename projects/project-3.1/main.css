@@ -2,32 +2,36 @@ html {
 	color: white;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
 header{
 	font-size: 30vw;
 }
 .collection {
   margin-left: 5vw;
 }
+
+.library1 {
+margin-top: 100%;
+margin-left: -30%;
+}
+
 .library1, .library2, .library3, .library4, .library5, .library6 {
-	float: right;
-	margin-right: 5vw;
+	position: relative;
+	text-align: center;
+	margin-right: 0vw;
+}
+.library8 {
+	margin-top: 70%;
+	width: 50%;
+	height: auto;
 }
 
-h2 {
-	font-size: 2vw;
-}
-
-h3 {
-	font-size: 2vw;
-}
-
-h4 {
-	font-size: 2vw;
+.library6 {
+	opacity: 70%;
 }
 
 h1 {
-	font-size: 3vw;
+	font-size: 5vw;
 }
 }
 
@@ -202,6 +206,7 @@ li {
 	background-color: #3c6396;
 	opacity: 70%;
 	font-family: 'Roboto', sans-serif;
+	margin-top: 3vw;
 }
 
 ul {

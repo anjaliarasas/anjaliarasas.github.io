@@ -126,7 +126,7 @@ const renderItems = (collection) => {
 }
 
 
-//<p>${item.data.Monday}</p><p>${item.data.Tuesday}</p><p>${item.data.Wednesday}</p><p>${item.data.Thursday}</p><p>${item.data.Friday}</p><p>${item.data.Saturday}</p><p>${item.data.Sunday}</p>
+//function changeColor(id)document.getElementById("closed").addEventListener("click", function() {alert("Hello World!");});
 //
 
 // Fetch gets your JSON file…
@@ -136,6 +136,7 @@ fetch('collection.json')
 		// And passes the data to the function, above!
 	    // closed.addEventListener("click", filterClosed(collection[0].collection))	;
 		renderItems(collection[0].collection) // In reverse order
+        
 	})
 
 
