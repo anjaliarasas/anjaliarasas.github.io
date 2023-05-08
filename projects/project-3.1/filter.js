@@ -122,20 +122,6 @@ const renderItems = (collection) => {
     })
 }
 
-var images = ["assets/library1.jpg","assets/library2.jpg","assets/library3.jpgassets/library4.jpg","assets/library5.jpg","assets/library6.jpgassets/library7.jpg","assets/library.jpg","assets/library6.jpg"];
-var i = 0;
-var renew = setInterval(function(){
-    if(links.length == i){
-        i = 0;
-    }
-    else {
-    document.getElementById("bannerImage").src = images[i]; 
-    document.getElementById("bannerLink").href = links[i]; 
-    i++;
-
-}
-},30000);
-
 //function changeColor(id)document.getElementById("closed").addEventListener("click", function() {alert("Hello World!");});
 //
 
