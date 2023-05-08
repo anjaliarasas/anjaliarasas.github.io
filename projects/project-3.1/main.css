@@ -8,12 +8,29 @@ header{
 }
 
 h2, h3, h4, h5, h6 {
-	font-size: 5vw;
+	font-size: 1em;
 	max-width: 10%;
 	text-align: justify;
 }
 .collection {
-  margin-left: 5vw;
+  margin-left: 1vw;
+  display: grid;
+		grid-template-columns: repeat(2, 5fr,);
+		padding: 10%;
+}
+
+li {
+	margin-left: 1vw;
+	display: grid;
+		grid-template-columns: repeat(2, 5fr,);
+		padding: 10%;
+}
+
+ul {
+	margin-left: 1vw;
+	display: grid;
+		grid-template-columns: repeat(2, 5fr,);
+		padding: 10%;
 }
 
 .library1 {
@@ -43,11 +60,11 @@ margin-left: -30%;
 }
 
 h1 {
-	font-size: 5vw;
+	font-size: 3rem;
 }
 
 .all, .open, .closed {
-	font-size: 7vw;
+	font-size: 2rem;
 }
 
 }
@@ -55,7 +72,7 @@ h1 {
 @media only screen and (max-width: 600px) {
 	.library1, .library2, .library3, .library4, .library5, .library8, h2, h3, h4, h5,h6 {
 		display: grid;
-		grid-template-columns: repeat(1, 5fr);
+		grid-template-columns: repeat(2, 5fr,);
 		padding: 10%;
 	}
 
@@ -63,6 +80,10 @@ h1 {
 		font-size: larger;
 		max-width: 3vw;
 		text-align: justify;
+	}
+	.img1 {
+		width: 500px;
+		height: auto;
 	}
 
 }
@@ -220,11 +241,14 @@ h6 {
 header {
 	font-size: 15vw;
 	color: #252525;
-	text-align: center;
-	margin-left: 16vw;
-	margin-top: 10vw;
+	text-align: right;
+	margin-left: 22vw;
+	margin-top: -30vw;
 	font-family: 'Instrument Serif', serif;
 	position: fixed;
+	-webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: white;
+
 }
 
 .collection {
@@ -233,8 +257,8 @@ header {
   font-size: 2vw;
   display: inline-block;
   margin-top: 10vw;
-  margin-left: -4vw;
-  margin-right: 5vw;
+  margin-left: 0vw;
+  margin-right: 6vw;
   font-weight: 400;
   text-decoration: none;
 }
@@ -251,7 +275,8 @@ li {
 
 ul {
 	display: grid;
-	gap: var(--spacing);
+		grid-template-columns: repeat(4, 5fr);
+	gap: 1vw;
 	margin-top: 45vw;
 	margin-left: 0vw;
 	position: absolute;
@@ -277,4 +302,15 @@ li:hover {
 	opacity: 90%;
 }
 
+.img1 {
+	margin-left: 4vw;
+	margin-top: 4vw;
+}
+
+
 /*background-color: #CA5C5C;*/
+
+
+body.show-only-open .closed { display: none }
+body.show-only-closed .open { display: none }
+

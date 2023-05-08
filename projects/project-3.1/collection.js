@@ -7,7 +7,7 @@ const renderItems = (collection) => {
 	// Loop through each item in the collection array
 	collection.forEach(item => {
 		const listItem = document.createElement('li') // Make the `li`
-
+		
 
 		// // You can make each element inside of that…
 		// const itemTitle = document.createElement('h2') // Make an `h2`
