@@ -200,7 +200,7 @@ li {
 
 ul {
 	display: grid;
-		grid-template-columns: repeat(7, 5fr);
+		grid-template-columns: repeat(14, 5fr);
 	gap: 1vw;
 	margin-top: 48vw;
 	margin-right: 0vw;
@@ -226,6 +226,7 @@ h1:hover {
 }
 
 li:hover {
+	background-color: #6491c0;
 	opacity: 100%;
 }
 
@@ -238,6 +239,13 @@ li:hover {
 	position: absolute;
 	margin-top: 7vw;
 	margin-left: 10vw;
+}
+
+.books2 {
+	position: absolute;
+	margin-top: 7vw;
+	margin-left: 184vw;
+	transform: rotate(180deg);
 }
 
 /*background-color: #CA5C5C;*/
