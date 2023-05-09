@@ -202,7 +202,7 @@ ul {
 	display: grid;
 		grid-template-columns: repeat(7, 5fr);
 	gap: 1vw;
-	margin-top: 45vw;
+	margin-top: 48vw;
 	margin-right: 0vw;
 	margin-left: 0vw;
 	position: absolute;
@@ -236,6 +236,8 @@ li:hover {
 
 .books {
 	position: absolute;
+	margin-top: 7vw;
+	margin-left: 10vw;
 }
 
 /*background-color: #CA5C5C;*/
