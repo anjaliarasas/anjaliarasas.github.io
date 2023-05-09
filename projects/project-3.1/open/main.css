@@ -12,64 +12,90 @@ header{
 h1 {
 	font-size: 3vw;
 }
+
+.books {
+	margin-left: 15vw;
+}
+
+}
+
+.books {
+	transform: rotate(90deg);
+	position: absolute;
+	margin-top: 20vw;
+	margin-left: 35vw;
 }
 
 h1 {
-	font-size: 1.25vw;
+	font-size: 1em;
 	color: #252525;
-	position: sticky;
 	font-weight: 400;
 	float: right;
 	margin-left: 1vw;
-	margin-right: 4vw;
+	margin-right: 0vw;
 	font-family: 'Roboto', sans-serif;
+}
+
+p {
+	margin-left: 5vw;
+	position: absolute;
+	margin-top: 15vw;
+	font-size: 1em;
+	color: #252525;
+	font-weight: 400;
+	text-align: justify;
+	max-width: 30em;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 1vw;
+}
+
+.all {
+	
+	margin-left: 85%;
+	margin-top: -5vw;
+}
+
+.about {
+
+	margin-left: 95%;
+	margin-top: -5vw;
+}
+
+h1 {
+	display: inline-block;
 }
 
 
 .closed {
 	margin-top: 1vw;
+	cursor: pointer;
+
 }
 
 .all {
-	margin-top: 3vw;
+	margin-top: 1vw;
+	cursor: pointer;
+
+}
+.open {
+	margin-top: 1vw;
+	cursor: pointer;
 }
 
-header {
-	font-size: 15vw;
-	color: #252525;
-	margin-left: 32%;
-	margin-top: 16%;
-	font-family: 'Times New Roman', serif;
-	position: fixed;
+.about {
+	margin-top: 1vw;
+	cursor: pointer;
 }
-
-.collection {
-	max-width: 50vw;
-	color: white;
-  font-size: 2vw;
-  display: inline-block;
-  margin-top: 15vw;
-  margin-left: -4vw;
-  margin-right: 5vw;
-  font-weight: 400;
-  text-decoration: none;
-}
-
-li {
-	padding: 3vw;
-	background-color: #3c6396;
-	opacity: 70%;
-	font-family: 'Roboto', sans-serif;
-}
-
-ul {
-	display: grid;
-	gap: var(--spacing);
-	margin-top: 60vw;
-	margin-left: 0vw;
+	
+h2 {
 	position: absolute;
-	max-width: 30vw;
-
+	font-size: 7vw;
+	font-weight: 400;
+	color: #252525;
+	text-align: left;
+	margin-left: 5vw;
+	margin-top: 6vw;
+	font-family: 'Libre Baskerville', serif;
 }
 
 a {

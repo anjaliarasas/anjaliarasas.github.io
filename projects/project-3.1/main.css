@@ -86,7 +86,7 @@ h1 {
 		height: auto;
 	}
 
-	.all, .open, .closed {
+	.all, .open, .closed, .about {
 		font-size: 4em;
 	}
 
@@ -101,7 +101,7 @@ h1 {
 
 
 h1 {
-	font-size: 1.25vw;
+	font-size: 1em;
 	color: #252525;
 	font-weight: 400;
 	float: right;
@@ -112,122 +112,28 @@ h1 {
 
 .open {
 	position: fixed;
-	margin-left: 95%;
+	margin-left: 85%;
 }
 
 .closed {
 	position: fixed;
-	margin-left: 85%;
+	margin-left: 75%;
 }
 
 .all {
 	position: fixed;
-	margin-left: 75%;
+	margin-left: 65%;
+	margin-top: -5vw;
+}
+
+.about {
+	position: fixed;
+	margin-left: 95%;
 	margin-top: -5vw;
 }
 
 h1 {
 	display: inline-block;
-}
-
-h2 {
-	font-family: 'Roboto', sans-serif;
-	font-size: 0.75vw;
-	color: #252525;
-	position: absolute;
-	font-weight: 400;
-	max-width: 200vw;
-	padding: 1%;
-	background-color: white;
-}
-
-h3 {
-	font-family: 'Roboto', sans-serif;
-	font-size: 0.75vw;
-	color: #252525;
-	position: absolute;
-	font-weight: 400;
-	max-width: 200vw;
-	padding: 1%;
-	background-color: white;
-}
-
-h4 {
-	font-family: 'Roboto', sans-serif;
-	font-size: 0.75vw;
-	color: #252525;
-	position: absolute;
-	font-weight: 400;
-	max-width: 200vw;
-	padding: 1%;
-	background-color: white;
-}
-
-h5 {
-	font-family: 'Roboto', sans-serif;
-	font-size: 0.75vw;
-	color: #252525;
-	position: absolute;
-	font-weight: 400;
-	max-width: 200vw;
-	padding: 1%;
-	background-color: white;
-}
-
-h6 {
-	font-family: 'Roboto', sans-serif;
-	font-size: 0.75vw;
-	color: #252525;
-	position: absolute;
-	font-weight: 400;
-	max-width: 200vw;
-	padding: 1%;
-	background-color: white;
-}
-
-.library1 {
-	position: relative;
-	margin-right: 5%;
-	margin-top: 100%;
-	float: right;
-}
-
-.library2 {
-	position: relative;
-	margin-right: 5%;
-	margin-top: 140%;
-	float: right;
-}
-
-.library3 {
-	position: relative;
-	margin-right: 5%;
-	margin-top: 180%;
-	float: right;
-}
-
-.library4 {
-	position: relative;
-	margin-right: 0%;
-	margin-top: 240%;
-	float: right;
-}
-
-.library5 {
-	position: relative;
-	margin-right: -55%;
-	margin-top: 330%;
-	float: right;
-}
-
-.library6 {
-	margin-top: 2%;
-	margin-left: 2%;
-}
-
-.library8 {
-	margin-left: 57%;
-	margin-top: 15%;
 }
 
 
@@ -238,7 +144,7 @@ h6 {
 }
 
 .all {
-	margin-top: 3vw;
+	margin-top: 1vw;
 	cursor: pointer;
 
 }
@@ -247,21 +153,24 @@ h6 {
 	cursor: pointer;
 }
 
-
+.about {
+	margin-top: 1vw;
+	cursor: pointer;
+}
 	
 header {
-	font-size: 15vw;
+	font-size: 8vw;
 	color: #252525;
 	text-align: center;
-	margin-left: 16vw;
-	margin-top: 10vw;
-	font-family: 'Instrument Serif', serif;
+	margin-left: 22vw;
+	margin-top: 18vw;
+	font-family: 'Libre Baskerville', serif;
 	position: fixed;
 }
 
 .collection {
 	max-width: 50vw;
-	color: white;
+	color: black;
   font-size: 2vw;
   display: inline-block;
   margin-top: 10vw;
@@ -271,26 +180,34 @@ header {
   text-decoration: none;
 }
 
+body {
+	margin-left: 0vw;
+}
+
 li {
 	padding: 3vw;
-	background-color: #3c6396;
+	background-color: white;
+	color: black;
 	opacity: 70%;
 	margin-right: 0vw;
+	margin-left: 0vw;
 	font-family: 'Roboto', sans-serif;
 	margin-top: 3vw;
 	border-style: solid;
-	border-color: white;
+	border-color: black;
+
 }
 
 ul {
 	display: grid;
-		grid-template-columns: repeat(4, 5fr);
+		grid-template-columns: repeat(7, 5fr);
 	gap: 1vw;
 	margin-top: 45vw;
 	margin-right: 0vw;
-	margin-left: 1vw;
+	margin-left: 0vw;
 	position: absolute;
 	max-width: 30vw;
+	margin-left: -2vw;
 
 }
 
@@ -309,7 +226,7 @@ h1:hover {
 }
 
 li:hover {
-	opacity: 90%;
+	opacity: 100%;
 }
 
 .img1 {
